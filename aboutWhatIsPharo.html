@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pharo - What is to deliver Pharo?</title>
+    <link rel="shortcut icon" href="/files/favicon.ico" />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/united/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/files/style.css">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="/files/ekko-lightbox.min.js"></script>
+    <script src="/files/pharo.js"></script>
+    <link rel="stylesheet" href="/files/ekko-lightbox.min.css">
+</head>
+
+    <body class="default">
+        <div id="wrap">
+            <div id="main">
+                <nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/web"><img src="/web/files/pharo-logo-small.png" alt="Pharo" srcset="/web/files/pharo-logo-small-2x.png 2x"/></a>
+    </div>    
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+    <li><a href="/news" class="">News</a></li>
+    <li><a href="/features"  class="">Features</a></li>
+    <li><a href="/download"  class="">Download</a></li>
+    <li><a href="/documentation"  class="">Documentation</a></li>
+    <li><a href="/community"  class="">Community</a></li>
+    <li><a href="/contribute"  class="">Contribute</a></li>
+    <li><a href="/success"  class="">Stories</a></li>
+    <li><a href="/about"  class="">About</a></li>
+</ul>
+         <!--
+         <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <a class="btn btn-default" href="/web/download">Download latest version ($.0)</a>
+                <a class="btn" href="/web/documentation">Learn more</a>
+            </div>
+        </form>
+        -->
+    </div>
+
+  </div>
+</nav>
+
+
+                <div class="container">
+                    <h1>What is to deliver Pharo?</h1><p>You probably know what Pharo is, but the interesting next questions are:</p><ul><li>what are the components that compose Pharo?</li><li>what does it mean to deliver Pharo?</li><li>what are the elements that should be maintained to make sure that Pharo is running?</li></ul><p>We present a digestible list of elements to answer these questions.<br>It is in no way exhaustive.</p><div class="col-md-9 col-xs-12"><h2>Language</h2><ul><li>Compiler</li><li>Parser</li><li>Runtime (class installer, cross referencer)</li><li>Exceptions</li><li>Collections</li><li>Streams</li><li>Package</li><li>Literal objects (character, string, number, symbol, booleans)</li><li>Kernel  environment, classes, methods,....)</li><li>Low-level concurrent abstractions (process, semaphore, delay, scheduler,..)</li></ul><h2>Basic utilities</h2><ul><li>Files</li><li>HTTP/HTTPS * (thanks beta9)</li><li>Network (TCP/UDP)</li><li>JSON * (thanks beta9)</li><li>COM/DCOM</li><li>FFI</li><li>Character encoding * (thanks beta9)</li><li>Taskit</li><li>Command line</li></ul><h2>Drivers</h2><ul><li>DB drivers</li><li>SQLLight * (thanks beta9)</li></ul><h2>Graphics</h2><ul><li>Graphics Morphic</li><li>Graphics Bloc</li><li>Canvas Cairo (Athens)</li><li>Widgets Morphic</li><li>Widgets Toplo</li><li>Bridge GTK</li><li>Widgets GTK</li><li>Application builder</li><li>OS Event/SDL2</li><li>Roassal * (thanks ObjectProfile and M. Mamani)</li></ul><h2>IDE</h2><ul><li>Test Runner</li><li>Syntax highlighter</li><li>Pretty printer</li><li>Completion</li><li>Application Packaging</li><li>"Maven" Package Repo</li><li>Package Manager</li><li>Utils (Message Browser, Dependency, ProcessBrowser, Settings…)</li><li>Code browser</li><li>Refactoring engine</li><li>Inspector</li><li>Debugger</li><li>Debugger UI</li><li>Debugger infrastructure</li><li>Change recorder</li><li>Microdown Online documentation support</li><li>GitHub File Format</li><li>Git</li><li>Git UI</li></ul><h2>C-libraries (libgit, ssl, ssh,...)</h2><ul><li>Bytecode interpreter</li><li>JIT Compilers</li><li>Backends</li><li>Unicorn Bridge</li><li>Infrastructure testing (Unicorn)</li><li>Infrastructure transpilation</li><li>Garbage Collector</li><li>Bench server</li></ul><h2>Infrastructure</h2><ul><li>Launcher</li><li>Bootstrap</li><li>Bug tracking</li><li>Infrastructure CI</li><li>Facing flaky tests</li><li>Non-standard architectures (OBS, …)</li><li>Benchmarks</li><li>Maintenance/update running condition</li><li>Deployment architecture</li></ul><h2>Communication and community</h2><ul><li>Documentation</li><li>Books</li><li>Consortium communication and organization</li><li>Consortium contracting</li><li>Discord presence</li><li>Newsletters</li><li>Annual Conference</li><li>Company contacts</li><li>Presentations at various events</li><li>Blog posts</li><li>Pharo article in dev forums</li><li>Lectures</li><li>GSOC</li><li>Internships</li></ul><h2>Conclusion</h2><p>We hope that now you see that delivering Pharo is a large task.</p></div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+    <div class="container"> 
+        <div class="small">
+            <br/><br/>
+            <p>Pharo is developed by an international community of open-source developers, coordinated and maintained by the pharo consortium and receives essential support from Inria, RMOD, CNRS, UDL, Cristal and many others.</p>
+            <div style="text-align: center">
+                  <img src="https://files.pharo.org/web-images/all-logos.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+</script>
+
+    </body>
+</html>

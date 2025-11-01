@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pharo - Pharo 11 Released!</title>
+    <link rel="shortcut icon" href="/files/favicon.ico" />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/united/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/files/style.css">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="/files/ekko-lightbox.min.js"></script>
+    <script src="/files/pharo.js"></script>
+    <link rel="stylesheet" href="/files/ekko-lightbox.min.css">
+</head>
+
+    <body class="default">
+        <div id="wrap">
+            <div id="main">
+                <nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/web"><img src="/web/files/pharo-logo-small.png" alt="Pharo" srcset="/web/files/pharo-logo-small-2x.png 2x"/></a>
+    </div>    
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+    <li><a href="/news" class="">News</a></li>
+    <li><a href="/features"  class="">Features</a></li>
+    <li><a href="/download"  class="">Download</a></li>
+    <li><a href="/documentation"  class="">Documentation</a></li>
+    <li><a href="/community"  class="">Community</a></li>
+    <li><a href="/contribute"  class="">Contribute</a></li>
+    <li><a href="/success"  class="">Stories</a></li>
+    <li><a href="/about"  class="">About</a></li>
+</ul>
+         <!--
+         <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <a class="btn btn-default" href="/web/download">Download latest version ($.0)</a>
+                <a class="btn" href="/web/documentation">Learn more</a>
+            </div>
+        </form>
+        -->
+    </div>
+
+  </div>
+</nav>
+
+
+                <div class="container">
+                    <h1><a href="/news/pharo11-released.html">Pharo 11 Released!</a></h1>
+                    <p>Dear Pharo users and dynamic language lovers:</p><p>We have released <a target="_blank" href="https://pharo.org/">Pharo</a> version 11!</p><h2>What is Pharo?</h2><p>Pharo is a pure object-oriented programming language and a powerful environment focused on simplicity and immediate feedback.</p><p><figure><img src="/web-images/news/Pharo11.png" alt="Screenshot of Pharo 11"><figcaption>Screenshot of Pharo 11</figcaption></img></figure></p><ul><li>Simple & powerful language: No constructors, no types declaration, no interfaces, no primitive types. Yet a powerful and elegant language with a full syntax fitting in one postcard! Pharo is objects and messages all the way down.</li><li>Live, immersive environment: Immediate feedback at any moment of your development: Developing, testing, debugging. Even in production environments, you will never be stuck in compiling and deploying steps again!</li><li>Amazing debugging experience: Pharo environment includes a debugger unlike anything you've seen before. It allows you to step through code, restart the execution of methods, create methods on the fly, and much more!</li><li>Pharo is yours: Pharo is made by an incredible community, with more than 100 contributors for the last revision of the platform and hundreds of people constantly contributing with frameworks and libraries.</li><li>Fully open-source: Pharo full stack is released under <a target="_blank" href="https://opensource.org/licenses/MIT">MIT</a> License and available on <a target="_blank" href="https://github.com/pharo-project/pharo">GitHub</a></li></ul><p>... more on the <a target="_blank" href="http://www.pharo.org/features">Pharo Features page</a>.</p><p>In this iteration of Pharo, we continue working on our objectives of improvement, clean-up and modularization.<br>Also, we included a number of usability and speed improvements.<br>A complete list of changes and improvements is available in our <a target="_blank" href="https://github.com/pharo-project/pharo-changelogs/blob/master/Pharo110ChangeLogs.md">Changelog</a></p><p>Some highlights of this amazing version:</p><h2>Highlights</h2><h3>Tools</h3><ul><li>Iceberg (the git client/VCS control tool) has received a lot of tweaks and fixes to work better with GitHub and other Git services.</li><li>Our debugger now incorporates lots of tweaks and notably the capability of adding bindings in the context interaction model.</li><li>The is a new implementation of rewrite tools and improved refactoring support.</li><li>There is a new tool: The Document Browser, which presents Microdown (markdown compatible) documents placed on the web or locally.</li><li>New Tools presented in Calypso (the System Browser) and additional extended Inspectors.</li><li>All versions of NewTools, Spec, Roassal and Microdown have been updated with their respective bug fixes and improvements.</li></ul><h3>System</h3><ul><li>Extended Full Blocks and Constant Clock closures support.</li><li>Additional Inlining and optimizations</li><li>Bug Fixes and Clean up.</li><li>Ephemeron Finalization support.<br> </li></ul><h3>Virtual machine</h3><ul><li>Ephemerons Production Ready.</li><li>Initial support for Single-Instruction Multiple-Data (SIMD).</li><li>Third-Party Dependency Update (Newer versions, Graphic Libraries using Hardware Acceleration).</li><li>Clean Ups: Remove lots of old code, notably old experiments, and dead code.</li></ul><h2>Development Effort</h2><p>This new version is the result of 1412 Pull Requests integrated just in the Pharo repository.<br>We have closed 972 issues and received contributions from more than 70 different contributors.<br>We have also a lot of work in the separate projects that are included in each Pharo release:</p><ul><li><a target="_blank" href="http://github.com/pharo-spec/NewTools"><a target="_blank" href="http://github.com/pharo-spec/NewTools">http://github.com/pharo-spec/NewTools</a></a></li><li><a target="_blank" href="http://github.com/pharo-spec/NewTools-DocumentBrowser"><a target="_blank" href="http://github.com/pharo-spec/NewTools-DocumentBrowser">http://github.com/pharo-spec/NewTools-DocumentBrowser</a></a></li><li><a target="_blank" href="http://github.com/pharo-spec/Spec"><a target="_blank" href="http://github.com/pharo-spec/Spec">http://github.com/pharo-spec/Spec</a></a></li><li><a target="_blank" href="http://github.com/pharo-vcs/Iceberg"><a target="_blank" href="http://github.com/pharo-vcs/Iceberg">http://github.com/pharo-vcs/Iceberg</a></a></li><li><a target="_blank" href="http://github.com/ObjectProfile/Roassal3"><a target="_blank" href="http://github.com/ObjectProfile/Roassal3">http://github.com/ObjectProfile/Roassal3</a></a></li><li><a target="_blank" href="http://github.com/pillar-markup/Microdown"><a target="_blank" href="http://github.com/pillar-markup/Microdown">http://github.com/pillar-markup/Microdown</a></a></li><li><a target="_blank" href="http://github.com/pillar-markup/BeautifulComments"><a target="_blank" href="http://github.com/pillar-markup/BeautifulComments">http://github.com/pillar-markup/BeautifulComments</a></a></li><li><a target="_blank" href="http://github.com/pharo-project/pharo-vm"><a target="_blank" href="http://github.com/pharo-project/pharo-vm">http://github.com/pharo-project/pharo-vm</a></a></li></ul><h2>Contributors</h2><p>We always say Pharo is yours. It is yours because we made it for you, but most importantly because it is made by the invaluable contributions of our great community (yourself).<br>A large community of people from all around the world contributed to Pharo 11.0 by making pull requests, reporting bugs, participating in discussion threads, providing feedback, and a lot of helpful tasks in all our community channels.<br>Thank you all for your contributions.</p><p>The Pharo Team</p><p>Discover Pharo: <a target="_blank" href="https://pharo.org/features"><a target="_blank" href="https://pharo.org/features">https://pharo.org/features</a></a></p><p>Try Pharo: <a target="_blank" href="http://pharo.org/download"><a target="_blank" href="http://pharo.org/download">http://pharo.org/download</a></a></p><p>Learn Pharo: <a target="_blank" href="http://pharo.org/documentation"><a target="_blank" href="http://pharo.org/documentation">http://pharo.org/documentation</a></a></p>
+                    <div class="date">10 May 2023</div>
+                  			
+                  	<div>
+                  		<div class="col-left" style="float: left">
+                  			
+			          		&lt;-- <a href="/news/2023-03-23-GSoC-Call.html">[Call for Students] Google Summer of Code 2023 </a>
+      						
+      					</div>
+                  		<div class="col-right" style="float: right">
+		      				
+					        <a href="/news/2023-07-11-PharoSummerSchool.html">Pharo 2023 Summer School</a> --&gt;
+		      				
+      					</div>
+      				</div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+    <div class="container"> 
+        <div class="small">
+            <br/><br/>
+            <p>Pharo is developed by an international community of open-source developers, coordinated and maintained by the pharo consortium and receives essential support from Inria, RMOD, CNRS, UDL, Cristal and many others.</p>
+            <div style="text-align: center">
+                  <img src="https://files.pharo.org/web-images/all-logos.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pharo - Download - GNU/Linux installation - 64bits</title>
+    <link rel="shortcut icon" href="/files/favicon.ico" />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/united/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/files/style.css">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="/files/ekko-lightbox.min.js"></script>
+    <script src="/files/pharo.js"></script>
+    <link rel="stylesheet" href="/files/ekko-lightbox.min.css">
+</head>
+
+    <body class="default">
+        <div id="wrap">
+            <div id="main">
+                <nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/web"><img src="/web/files/pharo-logo-small.png" alt="Pharo" srcset="/web/files/pharo-logo-small-2x.png 2x"/></a>
+    </div>    
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+    <li><a href="/news" class="">News</a></li>
+    <li><a href="/features"  class="">Features</a></li>
+    <li><a href="/download"  class="">Download</a></li>
+    <li><a href="/documentation"  class="">Documentation</a></li>
+    <li><a href="/community"  class="">Community</a></li>
+    <li><a href="/contribute"  class="">Contribute</a></li>
+    <li><a href="/success"  class="">Stories</a></li>
+    <li><a href="/about"  class="">About</a></li>
+</ul>
+         <!--
+         <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <a class="btn btn-default" href="/web/download">Download latest version ($.0)</a>
+                <a class="btn" href="/web/documentation">Learn more</a>
+            </div>
+        </form>
+        -->
+    </div>
+
+  </div>
+</nav>
+
+
+                <div class="container">
+                    <h1>Download Pharo for GNU/Linux</h1><h3>Zip file</h3><p><strong>Version 6.1</strong> for several common GNU/Linux configurations. The zip files contain everything necessary. Just download and run the executable.</p><ul><li><a target="_blank" href="https://files.pharo.org/platform/Pharo6.1-64-linux.zip">Pharo6.1-64-linux.zip</a></li></ul><h3>Package for common distributions</h3><p>Packages are available for some common linux distributions The binary names are picked to allow to install the 32bit and 64bit VM in parallel:</p><ul><li>pharo6-32	(32bit version)</li><li>pharo6-64	(64bit version)</li><li>pharo6-32-ui	(32bit version with X11 dependencies)</li><li>pharo6-64-ui	(64bit version with X11 dependencies)</li></ul><p><strong>CentOS 6.8:</strong><br>The yum-utils package must be installed</p><pre><code>$ yum-config-manager --add-repo http://download.opensuse.org/repositories/devel:/languages:/pharo:/stable/CentOS_6/devel:languages:pharo:stable.repo</code></pre><h1>Install 32bit packages (with X11 dependency for *-ui or not)</h1><pre><code>$ yum install pharo6-32-ui.i686 or pharo6-32.i386 </code></pre><h1>Install 64bit packages</h1><pre><code>$ yum install pharo6-64-ui.x86_64 pharo6-64.x86_64 </code></pre><p>**CentOS 7 (only 64bit):<br>The yum-utils package must be installed</p><pre><code>$ cd /usr/lib64$ ln -s libcurl.so.4 libcurl-gnutls.so.4</code></pre><h1>Add the repo</h1><pre><code>$ yum-config-manager --add-repo http://download.opensuse.org/repositories/devel:/languages:/pharo:/stable/CentOS_7/devel:languages:pharo:stable.repo</code></pre><h1>Install 64bit packages</h1><pre><code>$ yum install pharo6-64-ui.x86_64 pharo6-64.x86_64 </code></pre><p><strong>Debian 8:</strong></p><pre><code>$ wget -O - http://download.opensuse.org/repositories/devel:/languages:/pharo:/stable/Debian_8.0/Release.key | apt-key add - $ echo "deb http://download.opensuse.org/repositories/devel:/languages:/pharo:/stable/Debian_8.0/ ./" > /etc/apt/sources.list.d/pharo.list </code></pre><h1>Update and install</h1><pre><code>$ apt update $ apt install pharo6-32-ui pharo6-64-ui    (or pharo6-32 or pharo6-64) </code></pre><p><strong>Ubuntu 14.04 LTS </strong></p><pre><code>$ wget -O - http://download.opensuse.org/repositories/devel:/languages:/pharo:/stable/xUbuntu_14.04/Release.key | apt-key add - $echo "deb http://download.opensuse.org/repositories/devel:/languages:/pharo:/stable/xUbuntu_14.04/ ./" > /etc/apt/sources.list.d/pharo.list </code></pre><h1>Update and install</h1><pre><code>$ apt update $ apt install pharo6-32-ui pharo6-64-ui </code></pre><p><strong>Ubuntu 16.04 </strong></p><pre><code>$ wget -O - http://download.opensuse.org/repositories/devel:/languages:/pharo:/stable/xUbuntu_16.04/Release.key | apt-key add - $ echo "deb http://download.opensuse.org/repositories/devel:/languages:/pharo:/stable/xUbuntu_16.04/ ./" > /etc/apt/sources.list.d/pharo.list </code></pre><h1>Update and install</h1><pre><code>$ apt update $ apt install pharo6-32-ui pharo6-64-ui </code></pre><h2>ZeroConf</h2><p><i>Just because Pharo developers are addicted to our live, dynamic IDE does not mean that we do not value automatic scripts and love the command line! Zeroconf scripts automatically download everything you need to get started. It will recognize your platform and load the appropriate VM version.</i> - Adapted from the <a target="_blank" href="https://deepintopharo.com/">Deep Into Pharo</a> book.</p><pre><code>curl -L https://get.pharo.org/64/ | bashwget -O- https://get.pharo.org/64 | bash</code></pre><p>Have a look at the <a target="_blank" href="https://get.pharo.org/64">Zeroconf Website</a> for more information.</p><a id="others"></a><h3>Build from Source</h3><p>You can always build the VM <a target="_blank" href="https://files.pharo.org/vm/src/vm-unix-sources/blessed/">from the sources</a>. Feel free to ask questions on the <a target="_blank" href="http://lists.pharo.org/mailman/listinfo/pharo-users_lists.pharo.org">users mailing list</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+    <div class="container"> 
+        <div class="small">
+            <br/><br/>
+            <p>Pharo is developed by an international community of open-source developers, coordinated and maintained by the pharo consortium and receives essential support from Inria, RMOD, CNRS, UDL, Cristal and many others.</p>
+            <div style="text-align: center">
+                  <img src="https://files.pharo.org/web-images/all-logos.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+</script>
+
+    </body>
+</html>

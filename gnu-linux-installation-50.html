@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pharo - Download - GNU/Linux installation (50)</title>
+    <link rel="shortcut icon" href="/files/favicon.ico" />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/united/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/files/style.css">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="/files/ekko-lightbox.min.js"></script>
+    <script src="/files/pharo.js"></script>
+    <link rel="stylesheet" href="/files/ekko-lightbox.min.css">
+</head>
+
+    <body class="default">
+        <div id="wrap">
+            <div id="main">
+                <nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/web"><img src="/web/files/pharo-logo-small.png" alt="Pharo" srcset="/web/files/pharo-logo-small-2x.png 2x"/></a>
+    </div>    
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+    <li><a href="/news" class="">News</a></li>
+    <li><a href="/features"  class="">Features</a></li>
+    <li><a href="/download"  class="">Download</a></li>
+    <li><a href="/documentation"  class="">Documentation</a></li>
+    <li><a href="/community"  class="">Community</a></li>
+    <li><a href="/contribute"  class="">Contribute</a></li>
+    <li><a href="/success"  class="">Stories</a></li>
+    <li><a href="/about"  class="">About</a></li>
+</ul>
+         <!--
+         <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <a class="btn btn-default" href="/web/download">Download latest version ($.0)</a>
+                <a class="btn" href="/web/documentation">Learn more</a>
+            </div>
+        </form>
+        -->
+    </div>
+
+  </div>
+</nav>
+
+
+                <div class="container">
+                    <div class="teaser"><h1>Download Pharo for GNU/Linux</h1><a id="standard-downloads"></a><p><strong>Version 5.0</strong> for several common GNU/Linux configurations. The zip files contain everything necessary. Just download and run the executable. For more download options, see the sections below.</p><a class="btn download" href="http://files.pharo.org/platform/Pharo5.0-linux.zip"></a><a class="btn download" href="http://files.pharo.org/platform/Pharo5.0-linux-oldLibC.zip"></a><a class="btn download" href="http://files.pharo.org/platform/Pharo5.0-centos.zip"></a></div><a id="64-bit-System-Setup"></a><h2>64-bit System Setup</h2><p>A 64-bit binary is on our horizon, but currently Pharo is 32-bit, requiring a bit of extra setup on 64-bit systems. Once your system is set up, you should be all set with the <a target="_blank" href="#standard-downloads">standard downloads above</a>. While we obviously can't provide instructions for every version of every distribution, below we list some of the most common cases. If you encounter a problem not addressed below, ask for help on our very friendly <a target="_blank" href="http://lists.pharo.org/mailman/listinfo/pharo-users_lists.pharo.org">user mailing list</a></p><h3>Ubuntu 14.04 and Later</h3><p>Since the ia32-libs package is no longer loadable on these systems, you can follow the instructions for <a target="_blank" href="#debian8">Debian 8</a>.</p><h3>Other</h3><a id="debian6"></a><p>The following is known to work in <strong>Debian</strong> (most recently tested in <strong>7.8 wheezy</strong>) and <strong>older Ubuntu (e.g. 12.04)</strong> systems.</p><pre><code>sudo dpkg --add-architecture i386sudo apt-get updatesudo apt-get install ia32-libs</code></pre><a id="debian8"></a><p>The installation in <strong>Debian 8 Jessie 64bits</strong> requires some operations.</p><pre><code> sudo dpkg --add-architecture i386  sudo apt-get update  sudo apt-get install libx11-6:i386  sudo apt-get install libgl1-mesa-glx:i386  sudo apt-get install libfontconfig1:i386  sudo apt-get install libssl1.0.0:i386 </code></pre><h2>Distribution packages (More advanced)</h2><p>While the easiest way to get started is to download the <a target="_blank" href="#standard-downloads">standard downloads at the top of this page</a>, there are also various options via GNU/Linux Package Managers. For each option, be aware that what you are downloading is different than the <a target="_blank" href="#standard-downloads">standard downloads</a> - some install only the Pharo VM, others install  Pharo Launcher (our experimental new GUI Dashboard)</p><!-><h3>Ubuntu (ppa)</h3><p>Ubuntu users can use the dedicated ppa to install Pharo in various ways:</p><a id="ubuntu-ppa-headless-vm"></a><h4>Install the headless Pharo VM only</h4><pre><code>sudo add-apt-repository ppa:pharo/stablesudo dpkg --add-architecture i386sudo apt-get updatesudo apt-get install pharo-vm-core</code></pre><a id="ubuntu-ppa-launcher"></a><h4>Install Pharo Launcher, our experimental new GUI Dashboard</h4><pre><code>sudo add-apt-repository ppa:pharo/stablesudo dpkg --add-architecture i386sudo apt-get updatesudo apt-get install pharo-launcher</code></pre><ul><li>If you don't have the add-apt-repository command, <a target="_blank" href="https://www.google.com/search?q=add-apt-repository%20not%20found">google</a> is your best bet as getting it varies by distribution version</li><li>For reference, the <a target="_blank" href="https://launchpad.net/~pharo/+archive/ubuntu/stable">ppa page on launchpad.net</a></li></ul><p>--></p><h3>CentOS</h3><p>Virtual machine can be found here:<br><a target="_blank" href="http://files.pharo.org/get-files/50/pharo-centos-stable.zip">Pharo 5.0 CentOS</a></p><h3>ArchLinux</h3><h4>Install the Pharo VM only</h4><pre><code>yaourt pharo-vm-latest# which is then used like this:pharo /path/to/your/image</code></pre><h4>Install Pharo Launcher, our experimental new GUI Dashboard</h4><pre><code>yaourt pharo-launcher# which is then launched via:pharo-launcher</code></pre><p>See the <a target="_blank" href="https://aur.archlinux.org/packages/pharo-vm-latest/">VM</a> or <a target="_blank" href="https://aur.archlinux.org/packages/pharo-launcher/">Launcher</a> packages or this <a target="_blank" href="http://lists.pharo.org/pipermail/pharo-dev_lists.pharo.org/2014-March/093561.html">mailing list post</a> for more info.</p><h3>Nix</h3><p>The <a target="_blank" href="http://nixos.org/nix/">Nix package manager</a> can be installed on Linux and other Unix systems. The <a target="_blank" href="https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/pharo/vm/default.nix">Pharo VM</a> and <a target="_blank" href="https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/pharo/launcher/default.nix">Launcher</a> are part of the <a target="_blank" href="http://nixos.org/nixpkgs/">Nix Packages collection</a>.</p><a id="others"></a><h3>Others</h3><p>You can always build the VM <a target="_blank" href="http://files.pharo.org/vm/src/vm-unix-sources/blessed/">from the sources</a>. Feel free to ask questions on the <a target="_blank" href="http://lists.pharo.org/mailman/listinfo/pharo-users_lists.pharo.org">users mailing list</a>.</p></!->
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+    <div class="container"> 
+        <div class="small">
+            <br/><br/>
+            <p>Pharo is developed by an international community of open-source developers, coordinated and maintained by the pharo consortium and receives essential support from Inria, RMOD, CNRS, UDL, Cristal and many others.</p>
+            <div style="text-align: center">
+                  <img src="https://files.pharo.org/web-images/all-logos.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+</script>
+
+    </body>
+</html>

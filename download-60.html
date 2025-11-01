@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pharo - Download (60)</title>
+    <link rel="shortcut icon" href="/files/favicon.ico" />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/united/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/files/style.css">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="/files/ekko-lightbox.min.js"></script>
+    <script src="/files/pharo.js"></script>
+    <link rel="stylesheet" href="/files/ekko-lightbox.min.css">
+</head>
+
+    <body class="default">
+        <div id="wrap">
+            <div id="main">
+                <nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/web"><img src="/web/files/pharo-logo-small.png" alt="Pharo" srcset="/web/files/pharo-logo-small-2x.png 2x"/></a>
+    </div>    
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+    <li><a href="/news" class="">News</a></li>
+    <li><a href="/features"  class="">Features</a></li>
+    <li><a href="/download"  class="">Download</a></li>
+    <li><a href="/documentation"  class="">Documentation</a></li>
+    <li><a href="/community"  class="">Community</a></li>
+    <li><a href="/contribute"  class="">Contribute</a></li>
+    <li><a href="/success"  class="">Stories</a></li>
+    <li><a href="/about"  class="">About</a></li>
+</ul>
+         <!--
+         <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <a class="btn btn-default" href="/web/download">Download latest version ($.0)</a>
+                <a class="btn" href="/web/documentation">Learn more</a>
+            </div>
+        </form>
+        -->
+    </div>
+
+  </div>
+</nav>
+
+
+                <div class="container">
+                    <div class="teaser"><h1>Download Pharo Launcher</h1><p><strong>Pharo Launcher</strong> for OS X, GNU/Linux, and Windows.</p><a class="btn download" href="https://files.pharo.org/pharo-launcher/mac"></a><a class="btn download" href="https://files.pharo.org/pharo-launcher/windows"></a><a class="btn download" href="https://files.pharo.org/pharo-launcher/linux64"></a><a class="btn download" href="https://files.pharo.org/pharo-launcher/linux32"></a></div><p>The fastest way to get a working Pharo environment (image + virtual machine) is to use Pharo Launcher.<br>Pharo Launcher is a tool allowing you to easily download Pharo core images (stable image, development image, old stable images, mooc image) and automatically get the appropriate virtual machine to run these images.</p><h2>Installation</h2><ul><li>Mac OS X: Double-click on the dmg file and drop Pharo Launcher app in Applications folder. Before being able to run Pharo Launcher, you may need to update temporarily your security settings: if you have Mac OS X 10.8 or higher then you might get a message saying that Pharo "can’t be opened because it is from an unidentified developer". This is due to the OS X Gatekeeper feature that is designed to discourage users from downloading from random locations and possibly installing something bad. Assuming you've downloaded Pharo Launcher from Pharo web site, then you have nothing to worry about, and you just need to bypass this warning:<ul><li>Recommended - Right click (or command+click) the application icon and select "open"</li><li>Advanced - Enable all application downloads<ul><li>In OS X go to the Apple Menu -> System Preferences -> Security & Privacy -> General -></li><li>Unlock the padlock at the bottom of the window, which will require a computer admin password</li><li>Where it says "Allow applications downloaded from:" select "Anywhere"</li><li>OS X will give you a scary warning that is a bit exaggerated. If you're not comfortable with this, use the "right click" method mentioned above. In all cases OS X will still ask you if you want to open an "unsigned" application the first time it is opened, so new applications that are downloaded can't just start by themselves.</li></ul></li></ul></li><li>Windows: Run the installer and follow instructions. Be sure to install Pharo Launcher in a place where you have write privileges.</li><li>GNU/Linux: Unzip the archive in a place where you have write privileges.</li></ul><p><strong>Usage</strong></p><p>Run Pharo Launcher. Initially on a new computer the right side with local images is empty. On the left side are the template images that are available on the web. Select the template image you like and download it. For instance you can download "Official distributions" -> "Pharo 6.1 (stable)" which is the latest stable image as of today. The launcher will download the image into a specific directory somewhere in your users home directory (you can configure where by clicking the Settings button at the bottom of the window). Each image gets its own folder. Use the "Show in folder" menu item if you want to open this location.</p><p>After download you can "Launch" the image from the context menu in the right list. This will open the new image and close the launcher image. So you are ready to start working.</p><p>More documentation is available at <a target="_blank" href="https://github.com/pharo-project/pharo-launcher/"><a target="_blank" href="https://github.com/pharo-project/pharo-launcher/">https://github.com/pharo-project/pharo-launcher/</a></a>.</p><p>You can use Pharo development image: Pharo 7 if you want to contribute to Pharo or you can’t wait to discover / use new Pharo features.</p><h1>Pharo standalone</h1><p>You can download Pharo as a single application.</p><ul><li><a target="_blank" href="http://files.pharo.org/platform/Pharo6.1-mac.zip">Pharo 6.1 for macOS (32bit)</a> (<a target="_blank" href="http://files.pharo.org/platform/Pharo6.1-mac.zip.sha256.txt">sha</a>)</li><li><a target="_blank" href="http://files.pharo.org/platform/Pharo6.1-64-mac.zip">Pharo 6.1 for macOS (64bit)</a> (<a target="_blank" href="http://files.pharo.org/platform/Pharo6.1-64-mac.zip.sha256.txt">sha</a>)</li><li><a target="_blank" href="http://files.pharo.org/platform/Pharo6.1-win.zip">Pharo 6.1 for Windows (32bit)</a> (<a target="_blank" href="http://files.pharo.org/platform/Pharo6.1-win.zip.sha256.txt">sha</a>)</li><li><a target="_blank" href="http://files.pharo.org/platform/Pharo6.1-linux.zip">Pharo 6.1 for GNU/Linux (32bit)</a> (<a target="_blank" href="http://files.pharo.org/platform/Pharo6.1-linux.zip.sha256.txt">sha</a>)</li><li><a target="_blank" href="http://files.pharo.org/platform/Pharo6.1-64-linux.zip">Pharo 6.1 for GNU/Linux (64bit)</a> (<a target="_blank" href="http://files.pharo.org/platform/Pharo6.1-64-linux.zip.sha256.txt">sha</a>)</li></ul><h2>Linux Packages</h2><p>Packages are available for some common linux distributions The binary names are picked to allow to install the 32bit and 64bit VM in parallel. The pharo launcher is best for interactive use, Linux packages are perfect for deployment on a server. Pre-build official Docker images based on these packages will be available soon.</p><ul><li><a target="_blank" href="https://pharo.org/gnu-linux-installation-64">Linux packages 64bit</a></li><li><a target="_blank" href="https://pharo.org/gnu-linux-installation">Linux packages 32bit</a></li></ul><h2>Command Line</h2><p>Zeroconf scripts automatically download everything you need to get started. It will recognize your platform and load the appropriate VM version. This is very useful when doing automated builds with a continuous integration server.</p><pre><code># 32bit versioncurl -L https://get.pharo.org | bash# or if curl is not available:wget -O- https://get.pharo.org | bash</code></pre><pre><code># 64bit version (it will not work on windows systems)curl -L https://get.pharo.org/64/ | bash# or if curl is not available:wget -O- https://get.pharo.org/64 | bash</code></pre><p>Have a look at the <a target="_blank" href="https://get.pharo.org/">Zeroconf Website</a> for more information.</p><h2>Older Versions</h2><p>Downloads of previous versions are available on the <a target="_blank" href="https://files.pharo.org/">Pharo file server</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+    <div class="container"> 
+        <div class="small">
+            <br/><br/>
+            <p>Pharo is developed by an international community of open-source developers, coordinated and maintained by the pharo consortium and receives essential support from Inria, RMOD, CNRS, UDL, Cristal and many others.</p>
+            <div style="text-align: center">
+                  <img src="https://files.pharo.org/web-images/all-logos.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+</script>
+
+    </body>
+</html>

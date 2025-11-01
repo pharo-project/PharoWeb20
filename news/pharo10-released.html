@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pharo - Pharo 10 Released!</title>
+    <link rel="shortcut icon" href="/files/favicon.ico" />
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/united/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/files/style.css">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="/files/ekko-lightbox.min.js"></script>
+    <script src="/files/pharo.js"></script>
+    <link rel="stylesheet" href="/files/ekko-lightbox.min.css">
+</head>
+
+    <body class="default">
+        <div id="wrap">
+            <div id="main">
+                <nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/web"><img src="/web/files/pharo-logo-small.png" alt="Pharo" srcset="/web/files/pharo-logo-small-2x.png 2x"/></a>
+    </div>    
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+    <li><a href="/news" class="">News</a></li>
+    <li><a href="/features"  class="">Features</a></li>
+    <li><a href="/download"  class="">Download</a></li>
+    <li><a href="/documentation"  class="">Documentation</a></li>
+    <li><a href="/community"  class="">Community</a></li>
+    <li><a href="/contribute"  class="">Contribute</a></li>
+    <li><a href="/success"  class="">Stories</a></li>
+    <li><a href="/about"  class="">About</a></li>
+</ul>
+         <!--
+         <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <a class="btn btn-default" href="/web/download">Download latest version ($.0)</a>
+                <a class="btn" href="/web/documentation">Learn more</a>
+            </div>
+        </form>
+        -->
+    </div>
+
+  </div>
+</nav>
+
+
+                <div class="container">
+                    <h1><a href="/news/pharo10-released.html">Pharo 10 Released!</a></h1>
+                    <p>Dear Pharo users and dynamic language lovers:</p><p>We have released Pharo version 10 !</p><p><strong>Pharo is a pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback.</strong></p><p><figure><img src="/web-images/news/p10.png" alt=""><figcaption></figcaption></img></figure></p><p>Pharo 10 was a short iteration where we focused mainly on stability and enhancement of the environment :</p><ul><li>Massive system cleanup: gained speed, removed dead code, removed old/deprecated frameworks (Glamour, GTTools, Spec1)</li><li>All Remaining tools written using the deprecated frameworks have been rewritten: Dependency Analyser, Critique Browser, and many other small utilities.</li><li>Modularisation has made a leap, creating correct baselines (project descriptions) for many internal systems, making possible the work and deployment of minimal images.</li><li>Removing support for the old Bytecode sets and embedded blocks simplified the compiler and language core.</li><li>As a result, our image size has been reduced by 10% (from 66MB to 58MB)</li><li>The VM has also improved in several areas: better async I/O support, socket handling, FFI ABI,</li></ul><p>Even being a short iteration, we have closed a massive amount of issues: around 600 issues and 700 pull requests. A more extended changelog can be found at <a target="_blank" href="https://github.com/pharo-project/pharo-changelogs/blob/master/Pharo100ChangeLogs.md">here</a>.</p><p>While the technical improvements are significant, still the most impressive fact is that the new code that got in the main Pharo 10 image was contributed by more than 80 people.</p><p>Pharo is more than code. It is an exciting project involving a great community.</p><p>We thank all the contributors to this release:</p><p>Aaron Bieber, Ackerley Tng, Alban Benmouffek, Alejandra Cossio, Aless Hosry, Alexandre Bergel, Aliaksei Syrel, Alistair Grant, Arturo Zambrano, Asbathou Biyalou-Sama, Axel Marlard, Bastien Degardins, Ben Coman, Bernardo Contreras, Bernhard Pieber, Carlo Teixeira, Carlos Lopez, Carolina Hernandez, Christophe Demarey, Clotilde Toullec, Connor Skennerton, Cyril Ferlicot, Dave Mason, David Wickes, Denis Kudriashov, Eric Gade, Erik Stel, Esteban Lorenzano, Evelyn Cusi Lopez, Ezequiel R. Aguerre, Gabriel Omar Cotelli, Geraldine Galindo, Giovanni Corriga, Guille Polito, Himanshu, Jan Bliznicenko, Jaromir Matas, Kasper Østerbye, Kausthub Thekke Madathil, Konrad Hinsen, Kurt Kilpela, Luz Paz, Marco Rimoldi, Marcus Denker, Martín Dias, Massimo Nocentini, Max Leske, Maximilian-ignacio Willembrinck Santander, Miguel Campero, Milton Mamani Torres, Nahuel Palumbo, Norbert Hartl, Norm Green, Nour Djihan, Noury Bouraqadi, Oleksandr Zaitsev, Pablo Sánchez Rodríguez, Pablo Tesone, Pavel Krivanek, Pierre Misse-Chanabier, Quentin Ducasse, Raffaello Giulietti, Rakshit, Renaud de Villemeur, Rob Sayers, Roland Bernard, Ronie Salgado, Santiago Bragagnolo, Sean DeNigris, Sebastian Jordan Montt, Soufyane Labsari, Stephan Eggermont, Steven Costiou, Stéphane Ducasse, Sven Van Caekenberghe, Theo Rogliano, Thomas Dupriez, Théo Lanord, Torsten Bergmann, Vincent Blondeau.<br><br>(If you contributed to Pharo 10 development in any way and we missed your name, please send us an email and we will add you).</p><p>Enjoy!</p><p><i>The Pharo Team</i></p><p>Discover Pharo: <a target="_blank" href="https://pharo.org/features"><a target="_blank" href="https://pharo.org/features">https://pharo.org/features</a></a></p><p>Try Pharo: <a target="_blank" href="http://pharo.org/download"><a target="_blank" href="http://pharo.org/download">http://pharo.org/download</a></a></p><p>Learn Pharo: <a target="_blank" href="http://pharo.org/documentation"><a target="_blank" href="http://pharo.org/documentation">http://pharo.org/documentation</a></a></p>
+                    <div class="date">5 April 2022</div>
+                  			
+                  	<div>
+                  		<div class="col-left" style="float: left">
+                  			
+			          		&lt;-- <a href="/news/Workshop2022.html">Workshop: Discover Pharo (Lille March 2)</a>
+      						
+      					</div>
+                  		<div class="col-right" style="float: right">
+		      				
+					        <a href="/news/ANN-Pharo-Launcher-30.html">[ANN] Pharo Launcher 3.0 released!</a> --&gt;
+		      				
+      					</div>
+      				</div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+    <div class="container"> 
+        <div class="small">
+            <br/><br/>
+            <p>Pharo is developed by an international community of open-source developers, coordinated and maintained by the pharo consortium and receives essential support from Inria, RMOD, CNRS, UDL, Cristal and many others.</p>
+            <div style="text-align: center">
+                  <img src="https://files.pharo.org/web-images/all-logos.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+</script>
+
+    </body>
+</html>
