@@ -1,5 +1,5 @@
 Foliage {
-	#baseUri: 'http://pharo.org',
+	#baseUri: 'https://pharo-project.github.io/PharoWeb20/',
 	#blogs: [ 
 		'news': 'Pharo News', 
 		'success': 'Pharo Success Stories' 
