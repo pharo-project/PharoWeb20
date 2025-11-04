@@ -36,7 +36,10 @@ jobs:
     - uses: actions/download-artifact@v5
       with:
         path: generated
-
+    
+    - name: AddNoJekill
+      run: touch generated/.nojekyll
+      
     - name: debug
       run: ls -R
 
