@@ -65,6 +65,7 @@ background: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(198,213,224,0) 0%, r
 text-align: left;
 }
 </style>
+
 <div id="carousel-teaser" class="carousel slide" data-ride="carousel">
   
 <!-- Indicators -->
@@ -132,6 +133,7 @@ text-align: left;
 </li>
   
 </ol>
+
 <div class="carousel-inner" role="listbox">
 <div class="featureRow odd item active">
 <div class="featureColumn">
@@ -258,7 +260,7 @@ The closures in Pharo with non-local returns allow elegant implementation of con
 </li>
 </ul>
 <p class="pictureDescription">
-Show implementaion and usage of message repeat. A method (map) that contains closure with non-local return
+Show implementation and usage of message repeat. A method (map) that contains closure with non-local return
 </p>
 </div>
 <div class="pictureColumn">
@@ -270,7 +272,7 @@ Show implementaion and usage of message repeat. A method (map) that contains clo
 <h2 class="code-line">
 <a id="Immediate_objects_identity_swapping_52">
 </a>
-Immediate objects identity swapping
+Immediate objects' identity swapping
 </h2>
 <ul>
 <li>
