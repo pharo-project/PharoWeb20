@@ -1,7 +1,7 @@
 Foliage {
 	#baseUri : 'https://pharo-project.github.io/',
 	
-	#webRootPrefix : 'PharoWeb20',
+	#webRootPrefix : '/PharoWeb20',
 	
 	#blogs: [ 
 		'news': 'Pharo News', 
