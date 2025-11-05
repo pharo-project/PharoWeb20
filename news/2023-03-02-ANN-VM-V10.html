@@ -57,19 +57,19 @@
 
 
                 <div class="container">
-                    <h1><a href="/news/2023-03-02-ANN-VM-V10.html">[ANN] VM Version 10.0.0 Release</a></h1>
+                    <h1><a href="{}/news/2023-03-02-ANN-VM-V10.html}">[ANN] VM Version 10.0.0 Release</a></h1>
                     <p>We have released a new version of the Pharo VM for Pharo 11. This VM is accessible right now from Zero-Conf, updating it in the Pharo Launcher or using the usual downloads (as described in <a target="_blank" href="https://pharo.org/download">pharo.org/download</a>). OBS packages are still in work and will come later.</p><p>This is the new VM that will be stable for Pharo 11 release, it is also compatible with Pharo 10 images but it is not the default for Pharo 10.</p><p>It has a lot of changes and improvements, as it is the result of more than a year and a half of improvements, clean-ups, and bug fixes.</p><p><a target="_blank" href="https://github.com/pharo-project/pharo-vm/releases/tag/v10.0.0">Changelog v10.0.0</a>:</p><p>Slang (Smalltalk to C Translator)</p><ul><li>Introducing a C AST to ease the generation of C Code</li><li>Having a Pretty Printer for C AST</li><li>Translation Tests</li><li>Fixing Translation Issues</li><li>Clear separation between Slang and VM code</li><li>Improving Cast generation</li></ul><p>Clean Up:</p><ul><li>Remove Old Bytecode Set</li><li>Remove Old Block Implementation</li><li>Simplification of the Primitives</li><li>Removing Unused / Old Code / Dead Code</li><li>Cleanup / Removal of Old Unused primitives</li><li>Removing Old FFI Implementation</li><li>Removing MT Experiment from the code base (Kept in own branch)</li><li>Fixing Compilation Warnings</li><li>Improving Type annotations to fix bugs in the translation / compilation</li><li>Removing Conditional Code on Old Configurations / Features</li><li>Renaming Concepts to be inline with Common terminology</li><li>Remove Newspeak, Multiple Bytecode and Old Memory Managers</li><li>Removing Unused Plugins</li></ul><p>Tests</p><ul><li>GNUification Tests</li><li>Tests for Math primitives including overflow and conversion testing.</li><li>Tests for comparison primitives (Equals / Not Equals / Less than / Less or Equals / Greater Than / Greater or Equals)</li><li>Testing Primitives for objects Pinned in Memory</li><li>Testing Math Primitives for Immediate Classes (SmallFloats / SmallIntegers)</li><li>Improving Simulation Infrastructure</li><li>Using Sista Bytecode in all Tests</li><li>Updating Unicorn version</li><li>Improving Machine Code emulation</li><li>Testing Image Read / Image Write</li><li>Using the same memory map in Tests and Execution</li><li>Testing Ephemerons</li><li>Become Primitives</li></ul><p>Ephemerons</p><ul><li>Fix for large amounts</li><li>Make it available</li><li>Testing Signal Finalizations</li></ul><p><br>Single-Instruction Multiple-Data (SIMD) initial Support:</p><ul><li>Initialization of new objects using SIMD (ARM64)</li><li>Adding Bytecode Extensions to support SIMD instructions</li><li>Adding Vector Registers</li><li>Vector Register bytecodes</li></ul><p>Misc:</p><ul><li>Fixing Become Errors.</li><li>Fixing XRay Primitive</li><li>Auto Localization of Interpreter loop variables and edge detection simplifying development and minimizing code</li><li>ImageReader / ImageWriter reification needed for Permanent Space.</li><li>Improving Memory Map of the VM (Using constant positions)</li><li>Dependencies Improvements</li></ul>
                     <div class="date">3 March 2023</div>
                   			
                   	<div>
                   		<div class="col-left" style="float: left">
                   			
-			          		&lt;-- <a href="/news/2023-02-24-GSOC23Accepted.html">Pharo accepted to Google Summer of Code 2023</a>
+			          		&lt;-- <a href="{}/news/2023-02-24-GSOC23Accepted.html}">Pharo accepted to Google Summer of Code 2023</a>
       						
       					</div>
                   		<div class="col-right" style="float: right">
 		      				
-					        <a href="/news/2023-03-02-ANN-Ephemerons.html">[ANN] Ephemerons in Pharo11</a> --&gt;
+					        <a href="{}/news/2023-03-02-ANN-Ephemerons.html}">[ANN] Ephemerons in Pharo11</a> --&gt;
 		      				
       					</div>
       				</div>
