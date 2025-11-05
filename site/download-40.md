@@ -6,7 +6,6 @@
 
 <div class="teaser">
 
-
 # Download Pharo
 
 
@@ -18,7 +17,7 @@
 <a class="btn download" href="http://files.pharo.org/platform/Pharo4.0-win.zip"><i class="fa fa-windows"></i> Windows
 </a>
 
-<a class="btn download" href="http://pharo.org/gnu-linux-installation"><i class="fa fa-linux"></i> GNU/Linux
+<a class="btn download" href="gnu-linux-installation"><i class="fa fa-linux"></i> GNU/Linux
 </a>
 
 </div>
