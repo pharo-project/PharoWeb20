@@ -16,10 +16,10 @@ In a giving mood? There are many ways to get involved!
 ## Reporting issues
 
 - Do not forget to sign the [license agreement](http://files.pharo.org/media/PharoSoftwareDistributionAgreement.pdf).
-- [Report a bug](/contribute-report-bug)
-- [Propose a bugfix](/contribute-propose-fix)
-- [Review and test fixes and improvement](/review-fix)
-- [Participate in Pharo events \(Sprints, etc.\)](/contribute-events)
+- [Report a bug](contribute-report-bug)
+- [Propose a bugfix](contribute-propose-fix)
+- [Review and test fixes and improvements](review-fix)
+- [Participate in Pharo events \(Sprints, etc.\)](contribute-events)
 
 
 ## Donate
