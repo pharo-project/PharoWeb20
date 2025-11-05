@@ -150,7 +150,7 @@ On a breakpoint, use the custom circuit region visual representation in the debu
 </p>
 </div>
 <div class="pictureColumn">
-<img src="fusion.gif" alt="fusion">
+<img src="https://files.pharo.org/web-images/carousel/fusion.gif" alt="fusion">
 </div>
 </div>
 <div class="featureRow even">
