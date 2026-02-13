@@ -103,19 +103,22 @@ While there is a [zeroconf](https://get.pharo.org) installation that works for m
 </div>
 
 <div class="col-xs-2">
-![](https://software.opensuse.org/assets/download/fedora-87c4d18cf84fa9a9d932beef715019cc3a4a944faebb40f4da0414d28f62d9a1.png)
+<img src="https://software.opensuse.org/assets/download/fedora-87c4d18cf84fa9a9d932beef715019cc3a4a944faebb40f4da0414d28f62d9a1.png"  width="50%" style="display: block; margin-left: auto; margin-right: auto;">
+
 </div>
 
 <div class="col-xs-2">
-![](https://software.opensuse.org/assets/download/opensuse-7d99f0ac15667145b8611ca67f8a551f5f010c98cb2e89cc38bdefa9e6ee3321.png)
+<img src="https://software.opensuse.org/assets/download/opensuse-7d99f0ac15667145b8611ca67f8a551f5f010c98cb2e89cc38bdefa9e6ee3321.png"  width="50%" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 <div class="col-xs-2">
-![](https://software.opensuse.org/assets/download/raspbian-975d66c4773377e550011409391bb441fe614aba38fa5b9aa813cf74bb3b8f4e.png)
+<img src="https://software.opensuse.org/assets/download/raspbian-975d66c4773377e550011409391bb441fe614aba38fa5b9aa813cf74bb3b8f4e.png"  width="50%" style="display: block; margin-left: auto; margin-right: auto;">
+
 </div>
 
 <div class="col-xs-2">
-![](https://software.opensuse.org/assets/download/ubuntu-482a9f0e811541ab84d51428fade325ab4a34ddf326c35091c8d81e86f96d61d.png)
+<img src="https://software.opensuse.org/assets/download/ubuntu-482a9f0e811541ab84d51428fade325ab4a34ddf326c35091c8d81e86f96d61d.png"  width="50%" style="display: block; margin-left: auto; margin-right: auto;">
+
 </div>
 
 </div>
@@ -165,7 +168,9 @@ You can download the Pharo VM and image as separated packages.
 
 <ul>
 <li>
-<i class="fa fa-windows"></I> Pharo stable VM for Windows: 
+<i class="fa fa-windows">
+</I> 
+Pharo stable VM for Windows: 
 <a href="https://files.pharo.org/get-files/120/pharo-vm-Windows-x86_64-stable.zip">64bit (default)
 </a> | 
 <a href="https://files.pharo.org/get-files/120/pharo-vm-Windows-X86-stable.zip">32bit
@@ -182,8 +187,19 @@ You can download the Pharo VM and image as separated packages.
 </li>
 <li>
 <i class="fa fa-linux">
-</I> Pharo stable VM for Linux: <a href="https://files.pharo.org/get-files/120/pharo-vm-Linux-x86_64-stable.zip">64bit (default)</a> | <a href="https://files.pharo.org/get-files/100/pharo-linux-stable.zip">32bit</a>  (WARNING: This linux builds were made for Debian based distributions, in any other case, we recommend to use the OBS based package).</li>
-<li>Pharo image: <a href="https://files.pharo.org/image/120/latest-64.zip">64bit (default)</a> | <a href="https://files.pharo.org/image/100/stable-32.zip">32bit</a></li>
+</I>
+Pharo stable VM for Linux: 
+<a href="https://files.pharo.org/get-files/120/pharo-vm-Linux-x86_64-stable.zip">64bit (default)
+</a> | 
+<a href="https://files.pharo.org/get-files/100/pharo-linux-stable.zip">32bit
+</a>  (WARNING: This linux builds were made for Debian based distributions, in any other case, we recommend to use the OBS based package).
+</li>
+<li>Pharo image: 
+<a href="https://files.pharo.org/image/120/latest-64.zip">64bit (default)
+</a> | 
+<a href="https://files.pharo.org/image/100/stable-32.zip">32bit
+</a>
+</li>
 </ul>
 
 </div>
