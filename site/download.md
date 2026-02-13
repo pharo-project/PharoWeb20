@@ -95,11 +95,11 @@ While there is a [zeroconf](https://get.pharo.org) installation that works for m
 <div class="row text-center">
 
 <div class="col-xs-2">
-<img src="https://software.opensuse.org/assets/download/arch-d33a62923121d629c7f951974e8bcf90e9f906d31c1af8c4d49593f2dd04a51b.png" alt="pharo-launcher" width="500%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="https://software.opensuse.org/assets/download/arch-d33a62923121d629c7f951974e8bcf90e9f906d31c1af8c4d49593f2dd04a51b.png"  width="50%" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 <div class="col-xs-2">
-![](https://software.opensuse.org/assets/download/debian-96bd00e831b0e517bcf293c6bb2757ed5c6c7f1d1e16ba258b4f966aa4427ea5.png)
+<img src="https://software.opensuse.org/assets/download/debian-96bd00e831b0e517bcf293c6bb2757ed5c6c7f1d1e16ba258b4f966aa4427ea5.png"  width="50%" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 <div class="col-xs-2">

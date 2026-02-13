@@ -458,20 +458,31 @@ Here are some of them:
 </div>
 </div>
 <div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Moldable_development_tools_187"></a>Moldable development tools</h2>
+
+<h2 class="code-line"><a id="Moldable_development_tools_187">
+</a>Adaptable development tools
+</h2>
 <ul>
-<li>To be more productive, blacksmiths create custom tools for their tasks. Pharo shares the same philosophy. It allows you to create naturally dedicated tools for better understanding of your problems, supporting you in faster development</li>
+<li>To be more productive, blacksmiths create custom tools for their tasks. Pharo shares the same philosophy. It allows you to create naturally dedicated tools for better understanding of your problems, supporting you in faster development
+</li>
 </ul>
-<p class="pictureDescription">Write a small simple tool that shows differences between actual and automatically formatted codes inside the Pharo class Collection</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Write a small simple tool that shows differences between actual and automatically formatted codes inside the Pharo class Collection
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/moldable.gif" alt="moldable">
-</div></div>
+</div>
+</div>
 <div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Optional_complete_object_memory_persistence_194"></a>Optional complete object memory persistence</h2>
+
+<h2 class="code-line"><a id="Optional_complete_object_memory_persistence_194"></a>Optional complete object memory persistence
+</h2>
 <ul>
-<li>All objects in the system can be stored at once in a platform-independent file named image. So you can, for example, save complete state of your program during debugging and restore it to try to find a different execution path or alternative solution.</li>
+<li>All objects in the system can be stored at once in a platform-independent file named image. So you can, for example, save complete state of your program during debugging and restore it to try to find a different execution path or alternative solution.
+</li>
 </ul>
-<p class="pictureDescription">Install a breakpoint, run the application, and when the debugger appears, save the system state. Do some steps inside the debugger and then close Pharo. Recover the saved state and repeat the stepping.</p>
+<p class="pictureDescription">Install a breakpoint, run the application, and when the debugger appears, save the system state. Do some steps inside the debugger and then close Pharo. Recover the saved state and repeat the stepping.
+</p>
 </div><div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/persistence.gif" alt="persistence">
 </div>
