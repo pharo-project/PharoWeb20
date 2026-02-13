@@ -51,10 +51,12 @@ Here are some of them:
 </div>
 <div class="featureRow odd">
 <div class="featureColumn">
+
 <h2 class="code-line">
 <a id="Pure_objectoriented_approach_21">
 </a>Pure object-oriented approach
 </h2>
+
 <ul>
 <li>In Pharo, everything is an object. This purity and uniformity in the system and language design makes Pharo clean and comfortable to learn.
 </li>
@@ -66,11 +68,14 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/oop.gif" alt="oop">
 </div>
 </div>
-<div class="featureRow even"><div class="featureColumn">
+<div class="featureRow even">
+<div class="featureColumn">
+
 <h2 class="code-line">
 <a id="Software_as_objects_28">
 </a>Software as objects
 </h2>
+
 <ul>
 <li>Pharo uses files for serialization of source code, but, by default, it does not use files to edit them. Instead of a text editor, it provides the tools to browse and modify the classes, methods, class comments and other program entities. So Pharo has a much better understanding of relations between them and allows easier navigation and refactorings.
 </li>
@@ -106,17 +111,19 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/postcard.png" alt="postcard">
 </div>
 </div>
-<div class="featureRow even"><div class="featureColumn">
+<div class="featureRow even">
+<div class="featureColumn">
 
 <h2 class="code-line">
 <a id="Closures_with_nonlocal_returns_45">
 </a>Closures with non-local returns
 </h2>
+
 <ul>
 <li>The closures in Pharo with non-local returns allow elegant implementation of control structures without needing to define them in the language itself. Pharo is a simple meta-language where the programmer has all features required for the writing of custom readable domain-specific languages.
 </li>
 </ul>
-<p class="pictureDescription">Show implementaion and usage of message repeat. A method (map) that contains closure with non-local return
+<p class="pictureDescription">Show implementation and usage of message repeat. A method (map) that contains closure with non-local return
 </p>
 </div>
 <div class="pictureColumn">
@@ -125,14 +132,18 @@ Here are some of them:
 </div>
 <div class="featureRow odd">
 <div class="featureColumn">
+
+
 <h2 class="code-line">
 <a id="Immediate_objects_identity_swapping_52">
 </a>Immediate objects identity swapping
 </h2>
+
 <ul>
 <li>In Pharo, you can easily replace an object with another one. All references to the old object in your running program will be replaced by references to the new object.
 </li>
 </ul>
+
 <p class="pictureDescription">Inspect all graphical elements on desktop, find logo, create new picture from a display region selected by the user and change identity of the logo object to this new picture*
 </p>
 </div>
@@ -142,152 +153,282 @@ Here are some of them:
 </div>
 <div class="featureRow even">
 <div class="featureColumn">
+
 <h2 class="code-line">
 <a id="Fast_resumable_exceptions_59">
 </a>Fast resumable exceptions
 </h2>
+
 <ul>
-<li>Pharo provides advanced exceptions system that can do things like resuming from a raised exception with providing an alternative result so your program can recover from failures.</li>
-<li>Their fast speed allows them to be used for clean information-flow mechanisms.</li>
+<li>Pharo provides advanced exceptions system that can do things like resuming from a raised exception with providing an alternative result so your program can recover from failures.
+</li>
+<li>Their fast speed allows them to be used for clean information-flow mechanisms.
+</li>
 </ul>
+
 <p class="pictureDescription">Provide an alternative result of the faulty expression that tries the division by zero</p>
 </div><div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/exceptions.gif" alt="exceptions">
-</div></div>
-<div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Live_customizable_objects_inspection_67"></a>Live customizable objects inspection</h2>
+</div>
+</div>
+<div class="featureRow odd">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Live_customizable_objects_inspection_67">
+</a>Live customizable objects inspection
+</h2>
 <ul>
-<li>You can visualize your objects in many ways (textual form, graphical representation) and use it to inspect the state of your running program. Debuggers can use these visualizations to help you to your understanding.</li>
+<li>You can visualize your objects in many ways (textual form, graphical representation) and use it to inspect the state of your running program. Debuggers can use these visualizations to help you to your understanding.
+</li>
 </ul>
 <p class="pictureDescription">Inspect an object graph with help of custom interactive visual object representations</p>
-</div><div class="pictureColumn">
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/inspector.gif" alt="inspector">
-</div></div>
+</div>
+</div>
 <div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Runtime_classes_and_objects_migration_74"></a>Run-time classes and objects migration</h2>
+
+<h2 class="code-line"><a id="Runtime_classes_and_objects_migration_74"></a>Run-time classes and objects migration
+</h2>
 <ul>
-<li>Pharo can evolve while it’s running. It is like an organism. You can do things like add or remove instance variables of classes that have already existing instances. All these living instances will be properly modified.</li>
+<li>Pharo can evolve while it’s running. It is like an organism. You can do things like add or remove instance variables of classes that have already existing instances. All these living instances will be properly modified.
+</li>
 </ul>
-<p class="pictureDescription">Look at some random instance of a class and add new variable to this class</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Look at some random instance of a class and add new variable to this class
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/migration.gif" alt="migration">
-</div></div>
+</div>
+</div>
 <div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Dynamic_inheritance_81"></a>Dynamic inheritance</h2>
+<h2 class="code-line">
+<a id="Dynamic_inheritance_81">
+</a>Dynamic inheritance
+</h2>
 <ul>
-<li>You can change the definition of existing classes including changing its superclass. To some selected object, you can simply assign a different class and do similar operations. These capabilities are essential for the ability of the system to evolve without the need for restarts.</li>
+<li>You can change the definition of existing classes including changing its superclass. To some selected object, you can simply assign a different class and do similar operations. These capabilities are essential for the ability of the system to evolve without the need for restarts.
+</li>
 </ul>
-<p class="pictureDescription">Count all living instances of a class Point, create a new class with half of its original variables and use it as new superclass of Point while the graphical system is running</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Count all living instances of a class Point, create a new class with half of its original variables and use it as new superclass of Point while the graphical system is running
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/inheritance.gif" alt="inheritance">
-</div></div>
-<div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Advanced_fast_multiplatform_virtual_machine_with_JIT_combined_generational_garbage_collector_ephemerons_forwarders_88"></a>Advanced fast multi-platform virtual machine with JIT, combined generational garbage collector, ephemerons, forwarders</h2>
+</div>
+</div>
+<div class="featureRow even">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Advanced_fast_multiplatform_virtual_machine_with_JIT_combined_generational_garbage_collector_ephemerons_forwarders_88">
+</a>Advanced fast multi-platform virtual machine with JIT, combined generational garbage collector, ephemerons, forwarders
+</h2>
 <ul>
 <li>Pharo uses a very fast virtual machine with many unique features that runs on Windows, macOS and Linux including the ARM processors</li>
 </ul>
-<p class="pictureDescription">A part of the garbage collector sources that deals with pinned objects that have stable memory location</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">A part of the garbage collector sources that deals with pinned objects that have stable memory location
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/vm.png" alt="vm">
-</div></div>
+</div>
+</div>
 <div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Virtual_machine_written_mostly_in_the_language_itself_95"></a>Virtual machine written mostly in the language itself</h2>
+
+<h2 class="code-line">
+<a id="Virtual_machine_written_mostly_in_the_language_itself_95">
+</a>Virtual machine written mostly in the language itself
+</h2>
 <ul>
-<li>For more natural understanding and debugging of the virtual machine, it is mostly written in Pharo.</li>
+<li>For more natural understanding and debugging of the virtual machine, it is mostly written in Pharo.
+</li>
 </ul>
-<p class="pictureDescription">You can use all benefits of the Pharo IDE during writing of the virtual machine code. The source is then translated to C.</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">You can use all benefits of the Pharo IDE during writing of the virtual machine code. The source is then translated to C.
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/vmmaker.png" alt="vmmaker">
-</div></div>
+</div>
+</div>
 <div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Easy_call_stack_manipulation_102"></a>Easy call stack manipulation</h2>
+
+<h2 class="code-line">
+<a id="Easy_call_stack_manipulation_102">
+</a>Easy call stack manipulation
+</h2>
 <ul>
-<li>You can easily inspect, modify or serialize the call stack. This allows, among other things, much easier building of debugging tools.</li>
+<li>You can easily inspect, modify or serialize the call stack. This allows, among other things, much easier building of debugging tools.
+</li>
 </ul>
-<p class="pictureDescription">Inspect all temporary variables with values in the current call stack</p>
+<p class="pictureDescription">Inspect all temporary variables with values in the current call stack
+</p>
 </div><div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/stack.png" alt="stack">
-</div></div>
+</div>
+</div>
 <div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Continuations_109"></a>Continuations</h2>
+
+<h2 class="code-line">
+<a id="Continuations_109">
+</a>Continuations
+</h2>
 <ul>
-<li>Call stack manipulation allows surprisingly easy implementation of continuations without the need for direct support of the virtual machine. The continuations are very handy for web development tasks and backtracking implementation.</li>
+<li>Call stack manipulation allows surprisingly easy implementation of continuations without the need for direct support of the virtual machine. The continuations are very handy for web development tasks and backtracking implementation.
+</li>
 </ul>
-<p class="pictureDescription">Continuations are implemented in a very small elegant class</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Continuations are implemented in a very small elegant class
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/continuation.png" alt="continuation">
-</div></div>
-<div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Fast_objects_enumeration_116"></a>Fast objects enumeration</h2>
+</div>
+</div>
+<div class="featureRow even">
+<div class="featureColumn">
+
+
+<h2 class="code-line">
+<a id="Fast_objects_enumeration_116">
+</a>Fast objects enumeration
+</h2>
 <ul>
-<li>With the Pharo reflection, you can easily enumerate all existing instances of a particular class and investigate references to them. It is beneficial for detecting memory leaks. It is an essential Pharo reflectivity feature.</li>
+
+<li>With the Pharo reflection, you can easily enumerate all existing instances of a particular class and investigate references to them. It is beneficial for detecting memory leaks. It is an essential Pharo reflectivity feature.
+</li>
 </ul>
-<p class="pictureDescription">Find all existing strings that contain subsctring ‘Pharo has’ and visualize them as a tree map according their sizes</p>
+<p class="pictureDescription">Find all existing strings that contain subsctring ‘Pharo has’ and visualize them as a tree map according their sizes
+</p>
 </div><div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/instances.png" alt="instances">
-</div></div>
-<div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Objects_as_methods_123"></a>Objects as methods</h2>
+</div>
+</div>
+<div class="featureRow odd">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Objects_as_methods_123">
+</a>Objects as methods
+</h2>
 <ul>
-<li>Methods are objects and objects can serve as methods. In this case, the invoking of a method means that the object receives a special message. It may be used for example during the coverage testing. You replace all class methods with such proxy objects, and when called, these objects replace themselves with the original method and write this information to a log.</li>
+<li>Methods are objects and objects can serve as methods. In this case, the invoking of a method means that the object receives a special message. It may be used for example during the coverage testing. You replace all class methods with such proxy objects, and when called, these objects replace themselves with the original method and write this information to a log.
+</li>
 </ul>
-<p class="pictureDescription">To implement per-method coverage is matter of few lines of code</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">To implement per-method coverage is matter of few lines of code
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/methods.png" alt="methods">
-</div></div>
-<div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Traits_130"></a>Traits</h2>
+</div>
+</div>
+<div class="featureRow even">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Traits_130">
+</a>Traits
+</h2>
 <ul>
-<li>Pharo classes use single inheritance, but they can use stateful traits for sharing of behavior with other classes.</li>
+<li>Pharo classes use single inheritance, but they can use stateful traits for sharing of behavior with other classes.
+</li>
 </ul>
-<p class="pictureDescription">Tree table uses a stateful trait that extends its behavior with the ability to have a context menu</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Tree table uses a stateful trait that extends its behavior with the ability to have a context menu
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/traits.png" alt="traits">
-</div></div>
-<div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Optional_Green_threads_137"></a>Optional Green threads</h2>
+</div>
+</div>
+<div class="featureRow odd">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Optional_Green_threads_137">
+</a>Optional Green threads
+</h2>
 <ul>
-<li>Pharo includes own process management that allows using concurrent programming even on platforms that do not support it.</li>
+<li>Pharo includes own process management that allows using concurrent programming even on platforms that do not support it.
+</li>
 </ul>
-<p class="pictureDescription">Built-in Pharo process manager</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Built-in Pharo process manager
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/processes.png" alt="processes">
-</div></div>
-<div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="AST_metalinks_144"></a>AST metalinks</h2>
+</div>
+</div>
+<div class="featureRow even">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="AST_metalinks_144">
+</a>AST metalinks
+</h2>
 <ul>
-<li>Abstract syntax tree of methods can be extended by metalinks that enable doing additional operations before, after or instead of particular AST nodes. That allows the clean first-class implementation of features like breakpoints, coverage testing, variables that remember old values, etc.</li>
+<li>Abstract syntax tree of methods can be extended by metalinks that enable doing additional operations before, after or instead of particular AST nodes. That allows the clean first-class implementation of features like breakpoints, coverage testing, variables that remember old values, etc.
+</li>
 </ul>
-<p class="pictureDescription">Installation of a breakpoint on an AST node. Example bytecode of a method with breakpoint.</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Installation of a breakpoint on an AST node. Example bytecode of a method with breakpoint.
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/metalinks.png" alt="metalinks">
-</div></div>
-<div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Firstclass_customizable_instance_variables_151"></a>First-class customizable instance variables</h2>
+</div>
+</div>
+<div class="featureRow odd">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Firstclass_customizable_instance_variables_151">
+</a>First-class customizable instance variables
+</h2>
 <ul>
-<li>Instance variables described by objects, too. This makes it easy to implement, for example, much smarter instance variables like variables that keep bidirectional managed references between two objects. A simple assignment then automatically updates the other side of the reference, too.</li>
+<li>Instance variables described by objects, too. This makes it easy to implement, for example, much smarter instance variables like variables that keep bidirectional managed references between two objects. A simple assignment then automatically updates the other side of the reference, too.
+</li>
 </ul>
-<p class="pictureDescription">Part of a general language meta-model that defines many-to-one relation between package and its owner. When you secify a class package with a simple assignment, the class is added to the child entities collection of the package automatically.</p>
-</div><div class="pictureColumn">
-<img src="https://files.pharo.org/web-images/carousel/slots.png" alt="slots.png"><br>
+<p class="pictureDescription">Part of a general language meta-model that defines many-to-one relation between package and its owner. When you secify a class package with a simple assignment, the class is added to the child entities collection of the package automatically.
+</p>
+</div>
+<div class="pictureColumn">
+<img src="https://files.pharo.org/web-images/carousel/slots.png" alt="slots.png">
+<br>
 <img src="https://files.pharo.org/web-images/carousel/slots2.png" alt="slots2">
-</div></div>
-<div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Customizable_metaclasses_159"></a>Customizable metaclasses</h2>
+</div>
+</div>
+<div class="featureRow even">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Customizable_metaclasses_159">
+</a>Customizable metaclasses
+</h2>
 <ul>
-<li>Objects have classes and classes have classes, too, the metaclasses. These metaclasses have a class, too, and Pharo allows using custom ones. It allows having the implementation of language features like traits as standalone libraries without any direct support in the virtual machine.</li>
+<li>Objects have classes and classes have classes, too, the metaclasses. These metaclasses have a class, too, and Pharo allows using custom ones. It allows having the implementation of language features like traits as standalone libraries without any direct support in the virtual machine.
+</li>
 </ul>
-<p class="pictureDescription">Metaclasses</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Metaclasses
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/metaclass.png" alt="metaclass">
-</div></div>
-<div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Relatively_low_memory_consumption_166"></a>Relatively low memory consumption</h2>
+</div>
+</div>
+<div class="featureRow odd">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Relatively_low_memory_consumption_166">
+</a>Relatively low memory consumption
+</h2>
 <ul>
-<li>Pharo, including the virtual machine, is very compact with fast startup time.</li>
+<li>Pharo, including the virtual machine, is very compact with fast startup time.
+</li>
 </ul>
 <p class="pictureDescription">The Pharo IDE in the default configuration consuming 64MB of the physical memory</p>
-</div><div class="pictureColumn">
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/memory.png" alt="memory">
 </div></div>
 <div class="featureRow even"><div class="featureColumn">
@@ -296,18 +437,26 @@ Here are some of them:
 <li>The default Pharo UI looks and behaves the same way on all platforms</li>
 </ul>
 <p class="pictureDescription">Pharo running in a web browser in a virtual machine written in JavaScript. The UI is the very same.</p>
-</div><div class="pictureColumn">
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/web.png" alt="web">
-</div></div>
-<div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Customizable_compiler_180"></a>Customizable compiler</h2>
+</div>
+</div>
+<div class="featureRow odd">
+<div class="featureColumn">
+<h2 class="code-line">
+<a id="Customizable_compiler_180"></a>Customizable compiler
+</h2>
 <ul>
 <li>The compiler is written in Pharo, and you can modify it as anything else in the system. You can use completely different compilers for some of your classes.</li>
 </ul>
-<p class="pictureDescription">You can browse and modify the compiler on the fly</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">You can browse and modify the compiler on the fly
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/opal.png" alt="opal">
-</div></div>
+</div>
+</div>
 <div class="featureRow even"><div class="featureColumn">
 <h2 class="code-line"><a id="Moldable_development_tools_187"></a>Moldable development tools</h2>
 <ul>
@@ -325,76 +474,146 @@ Here are some of them:
 <p class="pictureDescription">Install a breakpoint, run the application, and when the debugger appears, save the system state. Do some steps inside the debugger and then close Pharo. Recover the saved state and repeat the stepping.</p>
 </div><div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/persistence.gif" alt="persistence">
-</div></div>
+</div>
+</div>
 <div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Integrated_Git_support_201"></a>Integrated Git support</h2>
+
+<h2 class="code-line">
+<a id="Integrated_Git_support_201">
+</a>Integrated Git support
+</h2>
 <ul>
-<li>Pharo has advanced integrated Git support that goes beyond the standard level of files. You can merge your branches on the granularity of particular methods, browse their history, create pull-requests directly from the IDE, and so on.</li>
+<li>Pharo has advanced integrated Git support that goes beyond the standard level of files. You can merge your branches on the granularity of particular methods, browse their history, create pull-requests directly from the IDE, and so on.
+</li>
 </ul>
-<p class="pictureDescription">The built-in Git manager named Iceberg</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">The built-in Git manager named Iceberg
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/iceberg.png" alt="iceberg">
-</div></div>
-<div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Fast_objects_serialization_208"></a>Fast objects serialization</h2>
+</div>
+</div>
+<div class="featureRow odd">
+<div class="featureColumn">
+
+
+<h2 class="code-line">
+<a id="Fast_objects_serialization_208">
+</a>Fast objects serialization
+</h2>
 <ul>
-<li>All objects, including classes or running contexts, can be serialized to a file. You can, for example, store the state of a debugger with the content of current stack and attach it to the issue report.</li>
+<li>All objects, including classes or running contexts, can be serialized to a file. You can, for example, store the state of a debugger with the content of current stack and attach it to the issue report.
+</li>
 </ul>
-<p class="pictureDescription">Saving of a call stack to a file</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Saving of a call stack to a file
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/fuel.png" alt="fuel">
-</div></div>
-<div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Arithmetic_precision_215"></a>Arithmetic precision</h2>
+</div>
+</div>
+<div class="featureRow even">
+<div class="featureColumn">
+<h2 class="code-line">
+<a id="Arithmetic_precision_215">
+</a>Arithmetic precision
+</h2>
 <ul>
-<li>Pharo can use fractions, scaled decimals, large integers and so on to work with numbers without loss of arithmetic precision.</li>
+<li>Pharo can use fractions, scaled decimals, large integers and so on to work with numbers without loss of arithmetic precision.
+</li>
 </ul>
-<p class="pictureDescription">Pharo and the 0.30000000000000004 problem</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Pharo and the 0.30000000000000004 problem
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/numbers.gif" alt="numbers">
-</div></div>
-<div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Simple_connection_to_native_libraries_222"></a>Simple connection to native libraries</h2>
+</div>
+</div>
+<div class="featureRow odd">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Simple_connection_to_native_libraries_222">
+</a>Simple connection to native libraries
+</h2>
 <ul>
-<li>Pharo includes an FFI interface that makes the creation of bindings to C libraries very straightforward.</li>
+<li>Pharo includes an FFI interface that makes the creation of bindings to C libraries very straightforward.
+</li>
 </ul>
-<p class="pictureDescription">Part of the GTK binding. The definitions are very natural.</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">Part of the GTK binding. The definitions are very natural.
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/ffi.png" alt="ffi">
-</div></div>
-<div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Easy_use_of_proxy_objects_229"></a>Easy use of proxy objects</h2>
+</div>
+</div>
+<div class="featureRow even">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Easy_use_of_proxy_objects_229">
+</a>Easy use of proxy objects
+</h2>
 <ul>
-<li>Ability to easily create proxy objects - objects that process and/or resend all messages to another object, is essential to object-oriented languages.</li>
+<li>Ability to easily create proxy objects - objects that process and/or resend all messages to another object, is essential to object-oriented languages.
+</li>
 </ul>
-<p class="pictureDescription">RaspberryPi GPIO ports displayed on a remote Pharo instance</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">RaspberryPi GPIO ports displayed on a remote Pharo instance
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/iot.png" alt="iot">
-</div></div>
-<div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="Themes"></a>User interface themes</h2>
+</div>
+</div>
+<div class="featureRow odd">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Themes">
+</a>User interface themes
+</h2>
 <ul>
-<li>Pharo supports custom user interface themes.</li>
+<li>Pharo supports custom user interface themes.
+</li>
 </ul>
-<p class="pictureDescription">The light and dark theme</p>
-</div><div class="pictureColumn">
+<p class="pictureDescription">The light and dark theme
+</p>
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/themes.png" alt="themes">
-</div></div>
-<div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Rigid_system_nature_237"></a>Rigid system nature</h2>
+</div>
+</div>
+<div class="featureRow even">
+<div class="featureColumn">
+
+
+<h2 class="code-line">
+<a id="Rigid_system_nature_237">
+</a>Rigid system nature
+</h2>
 <ul>
-<li>In Pharo, the programmers have almost absolute freedom to customize the system and use many potentially dangerous features. On the other hand, most programmers will use them with deliberation, because Pharo, by default, provides a powerful standard library and tools that shape how to use the system the right way. Instead of making the language strict, it guides the programmers to do things right.</li>
+<li>In Pharo, the programmers have almost absolute freedom to customize the system and use many potentially dangerous features. On the other hand, most programmers will use them with deliberation, because Pharo, by default, provides a powerful standard library and tools that shape how to use the system the right way. Instead of making the language strict, it guides the programmers to do things right.
+</li>
 </ul>
-<p class="pictureDescription">Not all messages are safe to send…</p>
+<p class="pictureDescription">Not all messages are safe to send…
+</p>
 </div><div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/dangerous.png" alt="dangerous">
-</div></div>
-<div class="featureRow odd"><div class="featureColumn">
-<h2 class="code-line"><a id="MIT_license_245"></a>MIT license</h2>
+</div>
+</div>
+<div class="featureRow odd">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="MIT_license_245">
+</a>MIT license
+</h2>
 <ul>
 <li>Pharo is distributed with a non-viral open-source MIT license. The main Pharo repository is hosted on GitHub.</li>
 </ul>
-</div><div class="pictureColumn">
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/OSIApproved.png" alt="OSIApproved">
-</div></div>
+</div>
+</div>
 

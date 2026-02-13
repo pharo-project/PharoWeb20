@@ -25,7 +25,7 @@ The fastest way to get a working Pharo environment: image \(an object space with
 
 <div class="col-md-6">
 
-    <img src="https://github.com/pharo-project/pharo-launcher/raw/2.0/docs/images/pharo-launcher.png" alt="pharo-launcher" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="https://github.com/pharo-project/pharo-launcher/raw/2.0/docs/images/pharo-launcher.png" alt="pharo-launcher" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
 
 </div>
 
@@ -35,17 +35,29 @@ The fastest way to get a working Pharo environment: image \(an object space with
 
 <div class="col-xs-8 col-xs-offset-2">
 
-<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/windows"><i class="fa fa-windows"></i> Windows
-</a><br/>
+<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/windows">
+<i class="fa fa-windows">
+</i>Windows
+</a>
+<br/>
 
-<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/mac-x64"><i class="fa fa-apple"></i> MacOs x64
-</a><br/>
+<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/mac-x64">
+<i class="fa fa-apple">
+</i> MacOs x64
+</a>
+<br/>
 
-<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/mac-arm64"><i class="fa fa-apple"></i> MacOs arm64
-</a><br/>
+<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/mac-arm64">
+<i class="fa fa-apple">
+</i> MacOs arm64
+</a>
+<br/>
 
-<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/linux64"><i class="fa fa-linux"></i> GNU/Linux
-</a><br/>
+<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/linux64">
+<i class="fa fa-linux">
+</i> GNU/Linux
+</a>
+<br/>
 
 </div>
 
@@ -148,9 +160,25 @@ Have a look at the [Zeroconf Website](https://get.pharo.org/) for more informati
 You can download the Pharo VM and image as separated packages.
 
 <ul>
-<li><i class="fa fa-windows"></I> Pharo stable VM for Windows: <a href="https://files.pharo.org/get-files/120/pharo-vm-Windows-x86_64-stable.zip">64bit (default)</a> | <a href="https://files.pharo.org/get-files/120/pharo-vm-Windows-X86-stable.zip">32bit</a></li>
-<li><i class="fa fa-apple"></I> Pharo stable VM for macOS: <a href="https://files.pharo.org/get-files/120/pharo-vm-Darwin-x86_64-stable.zip">Intel 64bit</a> | <a href="https://files.pharo.org/get-files/120/pharo-vm-Darwin-arm64-stable.zip">Apple Silicon (default)</a></li>
-<li><i class="fa fa-linux"></I> Pharo stable VM for Linux: <a href="https://files.pharo.org/get-files/120/pharo-vm-Linux-x86_64-stable.zip">64bit (default)</a> | <a href="https://files.pharo.org/get-files/100/pharo-linux-stable.zip">32bit</a>  (WARNING: This linux builds were made for Debian based distributions, in any other case, we recommend to use the OBS based package).</li>
+<li>
+<i class="fa fa-windows"></I> Pharo stable VM for Windows: 
+<a href="https://files.pharo.org/get-files/120/pharo-vm-Windows-x86_64-stable.zip">64bit (default)
+</a> | 
+<a href="https://files.pharo.org/get-files/120/pharo-vm-Windows-X86-stable.zip">32bit
+</a>
+</li>
+
+<li>
+<i class="fa fa-apple">
+</I> Pharo stable VM for macOS: 
+<a href="https://files.pharo.org/get-files/120/pharo-vm-Darwin-x86_64-stable.zip">Intel 64bit
+</a> | 
+<a href="https://files.pharo.org/get-files/120/pharo-vm-Darwin-arm64-stable.zip">Apple Silicon (default)
+</a>
+</li>
+<li>
+<i class="fa fa-linux">
+</I> Pharo stable VM for Linux: <a href="https://files.pharo.org/get-files/120/pharo-vm-Linux-x86_64-stable.zip">64bit (default)</a> | <a href="https://files.pharo.org/get-files/100/pharo-linux-stable.zip">32bit</a>  (WARNING: This linux builds were made for Debian based distributions, in any other case, we recommend to use the OBS based package).</li>
 <li>Pharo image: <a href="https://files.pharo.org/image/120/latest-64.zip">64bit (default)</a> | <a href="https://files.pharo.org/image/100/stable-32.zip">32bit</a></li>
 </ul>
 
