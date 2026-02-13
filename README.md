@@ -1,13 +1,25 @@
-l# Pharo Web Site 20 
+# Pharo Web Site 20 
 
-This is the Pharo web site you can find at: http://pharo.org
- 
+This is the Pharo web site you can find at: http://pharo.org.
+Right now we did not deploy it there but you can see the result here: https://pharo-project.github.io/PharoWeb20/
+
 This is a version to test for real Foliage v2.0 (it corresponds to the branch withFoliage20 of the original repo).
 
 You can see the renderer website within an organisation (Pharo-project) it is interesting because deploying a web site
-within a GH organisation is different from a single repository in terms of the path management of local resources. 
+within a GH organisation is different from a single repository in terms of the path management of local resources.
 
-%[![publish](https://github.com/pharo-project/pharo-site/actions/workflows/publish.yaml/badge.svg)](https://github.com/pharo-project/pharo-site/actions/workflows/publish.yaml)
+## Known limits
+
+- The features web page has some glitches but it does not look related to foliage20 but to the CSS or HTML of the page.
+
+ 
+ 
+
+
+
+
+## Old Readme
+
 
 
 Improving the Pharo site is now much simpler:
