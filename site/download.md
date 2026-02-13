@@ -167,7 +167,7 @@ Have a look at the [Zeroconf Website](https://get.pharo.org/) for more informati
 You can download the Pharo VM and image as separate packages. Here for Pharo 12.
 
 - [Pharo stable VM for Windows: 64 bits](https://files.pharo.org/get-files/120/pharo-vm-Windows-x86_64-stable.zip) | [Pharo stable VM for Windows: 32 bits](ttps://files.pharo.org/get-files/120/pharo-vm-Windows-X86-stable.zip)
-- [Pharo stable VM for macOS: Intel ](https://files.pharo.org/get-files/120/pharo-vm-Darwin-x86_64-stable.zip) | Pharo stable VM for macOS: Apple Silicon](https://files.pharo.org/get-files/120/pharo-vm-Darwin-arm64-stable.zip). 
+- [Pharo stable VM for macOS: Intel ](https://files.pharo.org/get-files/120/pharo-vm-Darwin-x86_64-stable.zip) | [Pharo stable VM for macOS: Apple Silicon](https://files.pharo.org/get-files/120/pharo-vm-Darwin-arm64-stable.zip) 
 - Pharo images need to be downloaded separately - [Pharo 120 64 bits image ](https://files.pharo.org/image/120/latest-64.zip) | [Pharo 120 64 bits image ](https://files.pharo.org/image/120/stable-32.zip)
 
 </div>
