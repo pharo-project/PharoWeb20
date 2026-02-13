@@ -95,7 +95,7 @@ While there is a [zeroconf](https://get.pharo.org) installation that works for m
 <div class="row text-center">
 
 <div class="col-xs-2">
-![](https://software.opensuse.org/assets/download/arch-d33a62923121d629c7f951974e8bcf90e9f906d31c1af8c4d49593f2dd04a51b.png)
+<img src="https://software.opensuse.org/assets/download/arch-d33a62923121d629c7f951974e8bcf90e9f906d31c1af8c4d49593f2dd04a51b.png" alt="pharo-launcher" width="500%" style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 
 <div class="col-xs-2">
