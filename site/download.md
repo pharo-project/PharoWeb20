@@ -162,46 +162,13 @@ Have a look at the [Zeroconf Website](https://get.pharo.org/) for more informati
 <div class="col-md-12">
 
 @standalone
-## Pharo standalone
+## Pharo standalone VM/Image 
 
-You can download the Pharo VM and image as separate packages.
+You can download the Pharo VM and image as separate packages. Here for Pharo 12.
 
-<ul>
-<li> 
-Pharo stable VM for Windows: 
-<a href="https://files.pharo.org/get-files/120/pharo-vm-Windows-x86_64-stable.zip">64bit (default)
-</a>
-| 
-<a href="https://files.pharo.org/get-files/120/pharo-vm-Windows-X86-stable.zip">32bit
-</a>
-</li>
-
-<li>
-Pharo stable VM for macOS: 
-<a href="https://files.pharo.org/get-files/120/pharo-vm-Darwin-x86_64-stable.zip">Intel 64bit
-</a> 
-| 
-<a href="https://files.pharo.org/get-files/120/pharo-vm-Darwin-arm64-stable.zip">Apple Silicon (default)
-</a>
-</li>
-
-<li>
-Pharo stable VM for Linux: 
-<a href="https://files.pharo.org/get-files/120/pharo-vm-Linux-x86_64-stable.zip">64bit (default)
-</a>
-| 
-<a href="https://files.pharo.org/get-files/100/pharo-linux-stable.zip">32bit
-</a>  (WARNING: This linux builds were made for Debian based distributions, in any other case, we recommend to use the OBS based package).
-</li>
-
-<li>Pharo image: 
-<a href="https://files.pharo.org/image/120/latest-64.zip">64bit (default)
-</a> 
-| 
-<a href="https://files.pharo.org/image/100/stable-32.zip">32bit
-</a>
-</li>
-</ul>
+- [Pharo stable VM for Windows: 64 bits](https://files.pharo.org/get-files/120/pharo-vm-Windows-x86_64-stable.zip) | [Pharo stable VM for Windows: 32 bits](ttps://files.pharo.org/get-files/120/pharo-vm-Windows-X86-stable.zip)
+- [Pharo stable VM for macOS: Intel ](https://files.pharo.org/get-files/120/pharo-vm-Darwin-x86_64-stable.zip) | Pharo stable VM for macOS: Apple Silicon](https://files.pharo.org/get-files/120/pharo-vm-Darwin-arm64-stable.zip). 
+- Pharo images need to be downloaded separately - [Pharo 120 64 bits image ](https://files.pharo.org/image/120/latest-64.zip) | [Pharo 120 64 bits image ](https://files.pharo.org/image/120/stable-32.zip)
 
 </div>
 
