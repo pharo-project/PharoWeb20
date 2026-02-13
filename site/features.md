@@ -12,7 +12,8 @@ Pharo benefits from an elegant design that enables a relatively simple implement
 Here are some of them:
 </h1>
 </center>
-<p></p>
+<p>
+</p>
 </div>
 <div class="featureRow odd">
 <div class="featureColumn">
@@ -169,7 +170,8 @@ Here are some of them:
 </ul>
 
 <p class="pictureDescription">Provide an alternative result of the faulty expression that tries the division by zero</p>
-</div><div class="pictureColumn">
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/exceptions.gif" alt="exceptions">
 </div>
 </div>
@@ -278,7 +280,8 @@ Here are some of them:
 </ul>
 <p class="pictureDescription">Inspect all temporary variables with values in the current call stack
 </p>
-</div><div class="pictureColumn">
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/stack.png" alt="stack">
 </div>
 </div>
@@ -316,7 +319,8 @@ Here are some of them:
 </ul>
 <p class="pictureDescription">Find all existing strings that contain subsctring ‘Pharo has’ and visualize them as a tree map according their sizes
 </p>
-</div><div class="pictureColumn">
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/instances.png" alt="instances">
 </div>
 </div>
@@ -485,9 +489,11 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/opal.png" alt="opal">
 </div>
 </div>
-<div class="featureRow even"><div class="featureColumn">
+<div class="featureRow even">
+<div class="featureColumn">
 
-<h2 class="code-line"><a id="Moldable_development_tools_187">
+<h2 class="code-line">
+<a id="Moldable_development_tools_187">
 </a>Adaptable development tools
 </h2>
 
@@ -503,9 +509,12 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/moldable.gif" alt="moldable">
 </div>
 </div>
-<div class="featureRow odd"><div class="featureColumn">
+<div class="featureRow odd">
+<div class="featureColumn">
 
-<h2 class="code-line"><a id="Optional_complete_object_memory_persistence_194"></a>Optional complete object memory persistence
+<h2 class="code-line">
+<a id="Optional_complete_object_memory_persistence_194">
+</a>Optional complete object memory persistence
 </h2>
 <ul>
 <li>All objects in the system can be stored at once in a platform-independent file named image. So you can, for example, save complete state of your program during debugging and restore it to try to find a different execution path or alternative solution.
@@ -644,7 +653,8 @@ Here are some of them:
 </ul>
 <p class="pictureDescription">Not all messages are safe to send…
 </p>
-</div><div class="pictureColumn">
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/dangerous.png" alt="dangerous">
 </div>
 </div>
