@@ -87,9 +87,10 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/navigation.gif" alt="navigation">
 </div>
 </div>
+
+
 <div class="featureRow odd">
 <div class="featureColumn">
-
 <h2 class="code-line">
 <a id="Simple_language_syntax_35">
 </a>Simple language syntax
@@ -111,9 +112,10 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/postcard.png" alt="postcard">
 </div>
 </div>
+
+
 <div class="featureRow even">
 <div class="featureColumn">
-
 <h2 class="code-line">
 <a id="Closures_with_nonlocal_returns_45">
 </a>Closures with non-local returns
@@ -130,10 +132,10 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/controlStructures.png" alt="controlStructures">
 </div>
 </div>
+
+
 <div class="featureRow odd">
 <div class="featureColumn">
-
-
 <h2 class="code-line">
 <a id="Immediate_objects_identity_swapping_52">
 </a>Immediate objects identity swapping
@@ -171,9 +173,10 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/exceptions.gif" alt="exceptions">
 </div>
 </div>
+
+
 <div class="featureRow odd">
 <div class="featureColumn">
-
 <h2 class="code-line">
 <a id="Live_customizable_objects_inspection_67">
 </a>Live customizable objects inspection
@@ -188,9 +191,13 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/inspector.gif" alt="inspector">
 </div>
 </div>
-<div class="featureRow even"><div class="featureColumn">
 
-<h2 class="code-line"><a id="Runtime_classes_and_objects_migration_74"></a>Run-time classes and objects migration
+
+<div class="featureRow even">
+<div class="featureColumn">
+<h2 class="code-line">
+<a id="Runtime_classes_and_objects_migration_74">
+</a>Run-time classes and objects migration
 </h2>
 <ul>
 <li>Pharo can evolve while it’s running. It is like an organism. You can do things like add or remove instance variables of classes that have already existing instances. All these living instances will be properly modified.
@@ -203,7 +210,10 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/migration.gif" alt="migration">
 </div>
 </div>
-<div class="featureRow odd"><div class="featureColumn">
+
+
+<div class="featureRow odd">
+<div class="featureColumn">
 <h2 class="code-line">
 <a id="Dynamic_inheritance_81">
 </a>Dynamic inheritance
@@ -227,7 +237,8 @@ Here are some of them:
 </a>Advanced fast multi-platform virtual machine with JIT, combined generational garbage collector, ephemerons, forwarders
 </h2>
 <ul>
-<li>Pharo uses a very fast virtual machine with many unique features that runs on Windows, macOS and Linux including the ARM processors</li>
+<li>Pharo uses a very fast virtual machine with many unique features that runs on Windows, macOS and Linux including the ARM processors
+</li>
 </ul>
 <p class="pictureDescription">A part of the garbage collector sources that deals with pinned objects that have stable memory location
 </p>
@@ -236,8 +247,9 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/vm.png" alt="vm">
 </div>
 </div>
-<div class="featureRow odd"><div class="featureColumn">
 
+<div class="featureRow odd">
+<div class="featureColumn">
 <h2 class="code-line">
 <a id="Virtual_machine_written_mostly_in_the_language_itself_95">
 </a>Virtual machine written mostly in the language itself
@@ -253,8 +265,9 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/vmmaker.png" alt="vmmaker">
 </div>
 </div>
-<div class="featureRow even"><div class="featureColumn">
 
+<div class="featureRow even">
+<div class="featureColumn">
 <h2 class="code-line">
 <a id="Easy_call_stack_manipulation_102">
 </a>Easy call stack manipulation
@@ -269,12 +282,14 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/stack.png" alt="stack">
 </div>
 </div>
-<div class="featureRow odd"><div class="featureColumn">
 
+<div class="featureRow odd">
+<div class="featureColumn">
 <h2 class="code-line">
 <a id="Continuations_109">
 </a>Continuations
 </h2>
+
 <ul>
 <li>Call stack manipulation allows surprisingly easy implementation of continuations without the need for direct support of the virtual machine. The continuations are very handy for web development tasks and backtracking implementation.
 </li>
@@ -286,10 +301,10 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/continuation.png" alt="continuation">
 </div>
 </div>
+
+
 <div class="featureRow even">
 <div class="featureColumn">
-
-
 <h2 class="code-line">
 <a id="Fast_objects_enumeration_116">
 </a>Fast objects enumeration
@@ -305,9 +320,9 @@ Here are some of them:
 <img src="https://files.pharo.org/web-images/carousel/instances.png" alt="instances">
 </div>
 </div>
+
 <div class="featureRow odd">
 <div class="featureColumn">
-
 <h2 class="code-line">
 <a id="Objects_as_methods_123">
 </a>Objects as methods
@@ -426,17 +441,27 @@ Here are some of them:
 <li>Pharo, including the virtual machine, is very compact with fast startup time.
 </li>
 </ul>
-<p class="pictureDescription">The Pharo IDE in the default configuration consuming 64MB of the physical memory</p>
+<p class="pictureDescription">The Pharo IDE in the default configuration consuming 64MB of the physical memory
+</p>
 </div>
 <div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/memory.png" alt="memory">
-</div></div>
-<div class="featureRow even"><div class="featureColumn">
-<h2 class="code-line"><a id="Platformindependent_user_interface_173"></a>Platform-independent user interface</h2>
+</div>
+</div>
+<div class="featureRow even">
+<div class="featureColumn">
+
+<h2 class="code-line">
+<a id="Platformindependent_user_interface_173">
+</a>Platform-independent user interface
+</h2>
 <ul>
-<li>The default Pharo UI looks and behaves the same way on all platforms</li>
+<li>The default Pharo UI looks and behaves the same way on all platforms
+</li>
 </ul>
-<p class="pictureDescription">Pharo running in a web browser in a virtual machine written in JavaScript. The UI is the very same.</p>
+
+<p class="pictureDescription">Pharo running in a web browser in a virtual machine written in JavaScript. The UI is the very same.
+</p>
 </div>
 <div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/web.png" alt="web">
@@ -445,10 +470,13 @@ Here are some of them:
 <div class="featureRow odd">
 <div class="featureColumn">
 <h2 class="code-line">
-<a id="Customizable_compiler_180"></a>Customizable compiler
+<a id="Customizable_compiler_180">
+</a>Customizable compiler
 </h2>
+
 <ul>
-<li>The compiler is written in Pharo, and you can modify it as anything else in the system. You can use completely different compilers for some of your classes.</li>
+<li>The compiler is written in Pharo, and you can modify it as anything else in the system. You can use completely different compilers for some of your classes.
+</li>
 </ul>
 <p class="pictureDescription">You can browse and modify the compiler on the fly
 </p>
@@ -462,10 +490,12 @@ Here are some of them:
 <h2 class="code-line"><a id="Moldable_development_tools_187">
 </a>Adaptable development tools
 </h2>
+
 <ul>
 <li>To be more productive, blacksmiths create custom tools for their tasks. Pharo shares the same philosophy. It allows you to create naturally dedicated tools for better understanding of your problems, supporting you in faster development
 </li>
 </ul>
+
 <p class="pictureDescription">Write a small simple tool that shows differences between actual and automatically formatted codes inside the Pharo class Collection
 </p>
 </div>
@@ -483,11 +513,13 @@ Here are some of them:
 </ul>
 <p class="pictureDescription">Install a breakpoint, run the application, and when the debugger appears, save the system state. Do some steps inside the debugger and then close Pharo. Recover the saved state and repeat the stepping.
 </p>
-</div><div class="pictureColumn">
+</div>
+<div class="pictureColumn">
 <img src="https://files.pharo.org/web-images/carousel/persistence.gif" alt="persistence">
 </div>
 </div>
-<div class="featureRow even"><div class="featureColumn">
+<div class="featureRow even">
+<div class="featureColumn">
 
 <h2 class="code-line">
 <a id="Integrated_Git_support_201">
@@ -525,10 +557,12 @@ Here are some of them:
 </div>
 <div class="featureRow even">
 <div class="featureColumn">
+
 <h2 class="code-line">
 <a id="Arithmetic_precision_215">
 </a>Arithmetic precision
 </h2>
+
 <ul>
 <li>Pharo can use fractions, scaled decimals, large integers and so on to work with numbers without loss of arithmetic precision.
 </li>
@@ -547,6 +581,7 @@ Here are some of them:
 <a id="Simple_connection_to_native_libraries_222">
 </a>Simple connection to native libraries
 </h2>
+
 <ul>
 <li>Pharo includes an FFI interface that makes the creation of bindings to C libraries very straightforward.
 </li>
@@ -605,6 +640,7 @@ Here are some of them:
 <ul>
 <li>In Pharo, the programmers have almost absolute freedom to customize the system and use many potentially dangerous features. On the other hand, most programmers will use them with deliberation, because Pharo, by default, provides a powerful standard library and tools that shape how to use the system the right way. Instead of making the language strict, it guides the programmers to do things right.
 </li>
+
 </ul>
 <p class="pictureDescription">Not all messages are safe to send…
 </p>
