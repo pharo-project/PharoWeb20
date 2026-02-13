@@ -37,25 +37,29 @@ The fastest way to get a working Pharo environment: image \(an object space with
 
 <a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/windows">
 <i class="fa fa-windows">
-</i>Windows
+</i>
+Windows
 </a>
 <br/>
 
 <a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/mac-x64">
 <i class="fa fa-apple">
-</i> MacOs x64
+</i>
+MacOs x64
 </a>
 <br/>
 
 <a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/mac-arm64">
 <i class="fa fa-apple">
-</i> MacOs arm64
+</i>
+MacOs arm64
 </a>
 <br/>
 
 <a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/linux64">
 <i class="fa fa-linux">
-</i> GNU/Linux
+</i>
+GNU/Linux
 </a>
 <br/>
 
