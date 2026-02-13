@@ -1,6 +1,6 @@
 {
 "title" : "features",
-"layout" : "default",
+"layout" : "features",
 "publishDate" : "2020-02-04"
 }
 
