@@ -30,43 +30,7 @@ The fastest way to get a working Pharo environment: image \(an object space with
 </div>
 
 <div class="col-md-6">
-
-<div class="row">
-
-<div class="col-xs-8 col-xs-offset-2">
-
-<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/windows">
-<i class="fa fa-windows">
-</i>
-Windows
-</a>
-<br/>
-
-<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/mac-x64">
-<i class="fa fa-apple">
-</i>
-MacOs x64
-</a>
-<br/>
-
-<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/mac-arm64">
-<i class="fa fa-apple">
-</i>
-MacOs arm64
-</a>
-<br/>
-
-<a class="btn btn-block download" href="https://files.pharo.org/pharo-launcher/linux64">
-<i class="fa fa-linux">
-</i>
-GNU/Linux
-</a>
-<br/>
-
-</div>
-
-</div>
-
+ {{> download-buttons}}
 </div>
 
 </div>
