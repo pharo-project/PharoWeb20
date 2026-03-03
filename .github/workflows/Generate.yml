@@ -20,7 +20,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      - uses: pillar-markup/Foliage@master
+      - uses: pillar-markup/Foliage@v2.1.21
         with:
           source: site
           retention-days: 5
